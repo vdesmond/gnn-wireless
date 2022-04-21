@@ -4,6 +4,4 @@ rra_*
 validation_10/
 raw_10/
 train_10/
-CheckPoint/
-computational_graphs/
 .vscode/

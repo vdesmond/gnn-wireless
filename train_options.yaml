@@ -10,12 +10,12 @@ output_path: ./
 loss: BinaryCrossentropy
 optimizer:
   type: Adam
-  learning_rate: 0.00001
+  learning_rate: 0.0001
 metrics: [BinaryAccuracy, Precision, Recall]
 
 # TRAINING OPTIONS
 batch_size: 1
-epochs: 10
+epochs: 50
 epoch_size: 1000
 shuffle_training_set: False
 shuffle_validation_set: True

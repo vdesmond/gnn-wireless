@@ -41,28 +41,23 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 20
+        units: 32
       - type_layer: nn_layer
         activation: nn_activation
         units: hidden_state_dimension
 
   - nn_name: update_function
     nn_architecture:
-      - type_layer: nn_layer
-        activation: nn_activation
-        units: 30
-      - type_layer: nn_layer
-        activation: sigmoid
-        units: hidden_state_dimension
+      - type_layer: GRU
 
   - nn_name: readout_network
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 40
+        units: 16
       - type_layer: nn_layer
         activation: sigmoid
-        units: hidden_state_dimension
+        units: 1
 
   - nn_name: initial_state_network
     nn_architecture:
