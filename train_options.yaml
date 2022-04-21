@@ -1,0 +1,23 @@
+# PATHS
+additional_functions_file: ./additional_functions.py
+train_dataset: ./data/train
+validation_dataset: ./data/val
+# predict_dataset: ./data/validation_10
+# load_model_path: ./CheckPoint/experiment_2021_12_08_17_58_26/ckpt/weights.10--8.535
+output_path: ./
+
+# OPTIMIZATION OPTIONS
+loss: BinaryCrossentropy
+optimizer:
+  type: Adam
+  learning_rate: 0.00001
+metrics: [BinaryAccuracy, Precision, Recall]
+
+# TRAINING OPTIONS
+batch_size: 1
+epochs: 10
+epoch_size: 1000
+shuffle_training_set: False
+shuffle_validation_set: True
+val_samples: 100
+val_frequency: 1

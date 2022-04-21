@@ -1,0 +1,941 @@
+
+šõ”
+	/host:CPUõ(´ØÒ  
+tf_Compute/-2079019980´ØÒ &´¹‘
+tf_Compute/573456564´¹‘
+(—„–Œ 
+tf_Compute/-1048215017—„–Œ'Ø™Œı
+tf_Compute/-811397928Ø™Œı&›âûÌ
+tf_Compute/429846811›âûÌ	'Ü•±”
+tf_Compute/1384925916Ü•±”ÿõü·	
+python3ÿõü·	'Áş°ô
+tf_Compute/1049378625Áş°ô&§ğâğ
+tf_Compute/773371943§ğâğ(Œ÷¼¼ 
+tf_Compute/-2020656244Œ÷¼¼(íæü² 
+tf_Compute/-2040581267íæü²&Íª
+tf_Compute/625215181Íª&Ïİ
+tf_Compute/834103182Ïİ"'õÿõü·	convert_to_tensorHèÂ™ğPˆ„‚"!õÿõü·	tf.constantHˆÒ³÷PàìÎ"'õÿõü·	convert_to_tensorH¦¬ÈPè¾¬"/õÿõü·	TFE_Py_FastPathExecute_CHø³×¶PÀ§•"2õÿõü·	EagerExecute: TensorDatasetHà™ÓÉP¸¹ÿ"7õÿõü·	 EagerLocalExecute: TensorDatasetH°‡ËPˆ’òı"2õÿõü·	ValidateInputTypeAndPlacementHĞ§ûéP¨ÜL")õÿõü·	EagerKernelExecuteH¸ï¶ëP “Ú"]õÿõü·	TensorDatasetHØÛíP¨ëÎËZ(
+	long_nameTensorDataset:TensorDatasetZ
+is_eager1"1õÿõü·	tf.function-graph_buildingHèà†á
+P¸ÃáÏM"1õÿõü·	tf.function-graph_buildingHÀĞÍŞP˜½äå$"'õÿõü·	convert_to_tensorH¸ãÏ·P°¼«"&õÿõü·	convert_to_tensorHè‘ÇÁPè¥s"'õÿõü·	convert_to_tensorH µÊPàâ¥"'õÿõü·	convert_to_tensorHÀ¨ñüPÀ¿Ğ"1õÿõü·	tf.function-graph_buildingH°º¦È9PĞÑ™ç"'õÿõü·	convert_to_tensorH¨ß¨¥=PÀàÂ"'õÿõü·	convert_to_tensorH°Æßø>P¸£"'õÿõü·	convert_to_tensorH¨Şµÿ>Pğæ‘"'õÿõü·	convert_to_tensorH°ë‚…?P ÿ"'õÿõü·	convert_to_tensorHøê˜‰?PÀ­Ö"'õÿõü·	convert_to_tensorH€¯°Œ?Pˆ·Ë"'õÿõü·	convert_to_tensorH¨Ï‡?PÛÌ"'õÿõü·	convert_to_tensorH˜È“?P¸¡Í"'õÿõü·	convert_to_tensorHøŞ–?PĞ“Ï"&õÿõü·	convert_to_tensorHÈ‡µš?PØÉM"&õÿõü·	convert_to_tensorH°¬Ò›?P€Ï9"&õÿõü·	convert_to_tensorH°»Êœ?PØ‹8"&õÿõü·	convert_to_tensorHèó¼?PÈ·9"&õÿõü·	convert_to_tensorHØÃ¯?P°È6"&õÿõü·	convert_to_tensorHøÓ±Ÿ?Pø¤:"&õÿõü·	convert_to_tensorH —° ?P ô7"&õÿõü·	convert_to_tensorH€ø¬¡?Pàµ7"&õÿõü·	convert_to_tensorH¸ºà§?Pğ´{"'õÿõü·	convert_to_tensorHà§èÊ?P€ù¨"'õÿõü·	convert_to_tensorHà–³£@P¨ÁÒ"'õÿõü·	convert_to_tensorH€¾úÂ@PÄª"'õÿõü·	convert_to_tensorHÈµğ—AP—¹"'õÿõü·	convert_to_tensorH˜£È¶APğâ¿"'õÿõü·	convert_to_tensorHÀ±µˆBPàùÇ"'õÿõü·	convert_to_tensorH¸Ê–§BPÀœ²"'õÿõü·	convert_to_tensorH ŒŞøBPÈòÌ"'õÿõü·	convert_to_tensorH ù°—CP˜ëª"'õÿõü·	convert_to_tensorHˆç–èCP Ö¾"'õÿõü·	convert_to_tensorH¨Š‰ˆDPÈÒ­"'õÿõü·	convert_to_tensorHØÜœØDPˆ¾"'õÿõü·	convert_to_tensorHˆ£ÁúDPÈÀ³"'õÿõü·	convert_to_tensorHØÙÿŞEPè‘Í"'õÿõü·	convert_to_tensorH¸ƒÛşEPø¹°"1õÿõü·	tf.function-graph_buildingH˜—±KP”Ë“"'õÿõü·	convert_to_tensorH€ŠËèMPÈ¬"'õÿõü·	convert_to_tensorH°ãîNPøãœ"&õÿõü·	convert_to_tensorHĞ‹öôNP Øj"'õÿõü·	convert_to_tensorHèÆ¡ûNPø±‰"'õÿõü·	convert_to_tensorH¸ŞèšOP¸„­"'õÿõü·	convert_to_tensorHè¢³ğQPğºğ"'õÿõü·	convert_to_tensorHèşË¿RPà´Ş"'õÿõü·	convert_to_tensorH¡ö¬UPÓ¢"'õÿõü·	convert_to_tensorHèİ”ÌUP ı±"'õÿõü·	convert_to_tensorHÈ®¥ÖUPØ“Ü"'õÿõü·	convert_to_tensorHøØÿ÷UP˜Á¸"/õÿõü·	TFE_Py_FastPathExecute_CH˜Ò¤ÙXP°ë³ù"3õÿõü·	EagerExecute: FlatMapDatasetH¸äøöXP˜ñíØ"8õÿõü·	!EagerLocalExecute: FlatMapDatasetHÈ¬øXPğ  ×"2õÿõü·	ValidateInputTypeAndPlacementHÈåğ^Pˆ2"(õÿõü·	EagerKernelExecuteHèôœ^P˜óš="_õÿõü·	FlatMapDatasetHàŸÏ’^Pí›9Z*
+	long_nameFlatMapDataset:FlatMapDatasetZ
+is_eager1"1õÿõü·	tf.function-graph_buildingH¸¢‘á_PˆğÒé"'õÿõü·	convert_to_tensorHÀÔğfPĞıù"'õÿõü·	convert_to_tensorHñ‚øfPğÅœ"'õÿõü·	convert_to_tensorHØßıfPĞ•ø"'õÿõü·	convert_to_tensorH€ùñgP°ÓÙ"'õÿõü·	convert_to_tensorH –…gPĞĞ"'õÿõü·	convert_to_tensorH°¡ôˆgPØŸØ"'õÿõü·	convert_to_tensorHèôÔŒgPàêÌ"'õÿõü·	convert_to_tensorH ¸çgP¸¤Ì"&õÿõü·	convert_to_tensorHå²“gP šU"&õÿõü·	convert_to_tensorH˜…Ü”gPÀ‡<"&õÿõü·	convert_to_tensorH€ûŞ•gPÀŠ;"&õÿõü·	convert_to_tensorHèØ–gP°¿9"&õÿõü·	convert_to_tensorH€“Ñ—gP¨’;"&õÿõü·	convert_to_tensorH¸›Ó˜gP:"&õÿõü·	convert_to_tensorH€ŠÎ™gP€É;"&õÿõü·	convert_to_tensorH¸­ÇšgPà¬:"'õÿõü·	convert_to_tensorHÀ˜É gPˆ€"'õÿõü·	convert_to_tensorHàÁÉgPÀÎÈ"'õÿõü·	convert_to_tensorHÀì’¦hP˜Ãá"'õÿõü·	convert_to_tensorH¸ï›ÈhPà©¸"'õÿõü·	convert_to_tensorH°ÓÂ›iP€„Ï"'õÿõü·	convert_to_tensorHØ«İºiPØ…·"'õÿõü·	convert_to_tensorH˜Ó¿ŒjPğÙÂ"'õÿõü·	convert_to_tensorH ˆˆ«jP¨€¾"'õÿõü·	convert_to_tensorHŸûjP µÉ"'õÿõü·	convert_to_tensorHèˆ­™kP¸ø°"'õÿõü·	convert_to_tensorHè×óèkPÈ¨»"'õÿõü·	convert_to_tensorHğçô†lP¸æ¶"'õÿõü·	convert_to_tensorHÀê¯ÖlP°›Â"'õÿõü·	convert_to_tensorHØ‚ïõlP€Û²"'õÿõü·	convert_to_tensorHğÂŞÆmPğüà"'õÿõü·	convert_to_tensorHøÍ±æmPğ˜®"'õÿõü·	convert_to_tensorHà¹éÿrPøâ"!õÿõü·	tf.constantHŒá…sPøÙ±"/õÿõü·	TFE_Py_FastPathExecute_CHàô©sPÈ÷ëø"9õÿõü·	"EagerExecute: ParallelMapDatasetV2H˜±ûÂsP¸Á·İ">õÿõü·	'EagerLocalExecute: ParallelMapDatasetV2HÀñúÃsP°ÊªÜ"2õÿõü·	ValidateInputTypeAndPlacementHÀ‰ãuPÇ,")õÿõü·	EagerKernelExecuteHàŸûåuPğç¹·"rõÿõü·	ParallelMapDatasetV2Hˆ¤‹èuP°Ñ‹´Z
+is_eager1Z6
+	long_name)ParallelMapDatasetV2:ParallelMapDatasetV2".õÿõü·	TFE_Py_FastPathExecute_CH¨ŞÃöwP˜ÒÛ+"0õÿõü·	EagerExecute: ModelDatasetH¨İº‡xPàîÖ"5õÿõü·	EagerLocalExecute: ModelDatasetHğ‘õ‡xP¨¯"2õÿõü·	ValidateInputTypeAndPlacementHğ€¡—xPğã"(õÿõü·	EagerKernelExecuteH¸üí—xPè’‘"Yõÿõü·	ModelDatasetH˜ãå™xPØ»œZ
+is_eager1Z&
+	long_nameModelDataset:ModelDataset"'õÿõü·	convert_to_tensorH¨™ö½yPÀç§&"!õÿõü·	tf.constantHàŸ–ÑyP°…Ì"+õÿõü·	TFE_DeleteTensorHandleH¨”ëİyP¸ÅD"'õÿõü·	convert_to_tensorH°°ªæyPğÙ"!õÿõü·	tf.constantHÀ”èëyP˜ß¢"+õÿõü·	TFE_DeleteTensorHandleH¨¯©ğyPğõ"'õÿõü·	convert_to_tensorHè¸‚õyPÀÚ£"!õÿõü·	tf.constantHøŠÆúyPØÃÀ"+õÿõü·	TFE_DeleteTensorHandleHà¹ªÿyPèà"/õÿõü·	TFE_Py_FastPathExecute_CH¨ºã“zP¨¢”*"6õÿõü·	EagerExecute: OptimizeDatasetV2HØÔ™§zPø±’ı)";õÿõü·	$EagerLocalExecute: OptimizeDatasetV2HàØø§zPè¼¡ü)"2õÿõü·	ValidateInputTypeAndPlacementH ‚»¾zPĞÇ")õÿõü·	EagerKernelExecuteH°ï„¿zP¨©·â)"iõÿõü·	OptimizeDatasetV2H ÛÁÀzP¸‚êŞ)Z
+is_eager1Z0
+	long_name#OptimizeDatasetV2:OptimizeDatasetV2"Fõÿõü·	ExecutorState::ProcessHø“â¢…PĞ‡²Z
+id-1Z
+iter_num0"Fõÿõü·	ExecutorState::ProcessH ß‡¤…P¨‘ĞZ
+iter_num0Z
+id-1"Zõÿõü·	PlaceholderHØÇç¥…PÈâøZ'
+	long_namePlaceholder/_0:PlaceholderZ
+is_eager0",õÿõü·	_send_Const/_3_0:_SendHöô¬…P€ú~"4õÿõü·	ExecutorDoneCallbackHØÍÊ®…PàÁ3Z
+id-1"Fõÿõü·	ExecutorState::ProcessHˆ­×ñ…PĞÒ®Z
+iter_num0Z
+id-1"Fõÿõü·	ExecutorState::ProcessH¨€šò…PÀùZ
+id-1Z
+iter_num0"Zõÿõü·	PlaceholderHà„Êò…P€ûÑZ'
+	long_namePlaceholder/_0:PlaceholderZ
+is_eager0",õÿõü·	_send_Const/_3_0:_SendH°“ëõ…Pø³5"4õÿõü·	ExecutorDoneCallbackH€ĞÙö…P ÂZ
+id-1"Fõÿõü·	ExecutorState::ProcessHˆšş ¡PğZ
+id-1Z
+iter_num0"Fõÿõü·	ExecutorState::ProcessHÈŸ¢¡Pˆƒë
+Z
+id-1Z
+iter_num0"3õÿõü·	_recv_Placeholder/_0_0:_RecvHÈı¿£¡PÀÑ²	"Fõÿõü·	ExecutorState::ProcessHØù¥¡PØĞZ
+iter_num0Z
+id-1"`õÿõü·	TensorDatasetH°ö¾¥¡PĞÕ³Z+
+	long_nameTensorDataset/_1:TensorDatasetZ
+is_eager0"cõÿõü·	FlatMapDatasetHĞú»©¡PøÇÒZ-
+	long_name FlatMapDataset/_2:FlatMapDatasetZ
+is_eager0"‚õÿõü·	MaxIntraOpParallelismDatasetH¨íœ­¡P€«ÂZ>
+	long_name1intra_op_parallelism:MaxIntraOpParallelismDatasetZ
+is_eager0"\õÿõü·	ModelDatasetHèöş®¡P¨—cZ
+is_eager0Z)
+	long_nameModelDataset/_5:ModelDataset"(õÿõü·	_send_Sink_0:_SendHø‡º°¡P˜ô*"4õÿõü·	ExecutorDoneCallbackH°–º±¡PÀº+Z
+id-1"0õÿõü·	TFE_Py_FastPathExecute_CHğä¤¥Päâ"9õÿõü·	!EagerExecute: AnonymousIteratorV2H¨õõº¥PˆİøÉ">õÿõü·	&EagerLocalExecute: AnonymousIteratorV2H€‚¼¥P¨ĞàÈ"3õÿõü·	ValidateInputTypeAndPlacementH€Ê­Ï¥P€Ù"*õÿõü·	EagerKernelExecuteH¨ÿ†Ğ¥PÀ‰´´"põÿõü·	AnonymousIteratorV2Hø´¡Ñ¥PğíÃ°Z4
+	long_name'AnonymousIteratorV2:AnonymousIteratorV2Z
+is_eager1"0õÿõü·	TFE_Py_FastPathExecute_CH¸Ïç‹¨P€‰±È{"2õÿõü·	EagerExecute: MakeIteratorHØîÕ‘¨P¨ĞŸÀ{"7õÿõü·	EagerLocalExecute: MakeIteratorHèç›’¨PğŞ¿¿{"3õÿõü·	ValidateInputTypeAndPlacementHÀúŒ›¨PÈ"*õÿõü·	EagerKernelExecuteHÈØÎ›¨PÈäšµ{"[õÿõü·	MakeIteratorH˜ñÈœ¨PÀÜ²{Z&
+	long_nameMakeIterator:MakeIteratorZ
+is_eager1"2õÿõü·	MakeIterator::ModelDatasetHÀê©¡¨P˜õ£¤{"Bõÿõü·	*MakeIterator::MaxIntraOpParallelismDatasetHø²Ş¦¨PøŸÇ{"4õÿõü·	MakeIterator::FlatMapDatasetH˜Ù£«¨P­Ï™{"2õÿõü·	MakeIterator::TensorDatasetH¸˜½­¨PÈ½´"0õÿõü·	TFE_Py_FastPathExecute_CHÈèö¤P¸‹«ñS"5õÿõü·	EagerExecute: IteratorGetNextHø¼á™¤P¨”ßÖS":õÿõü·	"EagerLocalExecute: IteratorGetNextHÀ¢ßš¤P ÍÂÕS"3õÿõü·	ValidateInputTypeAndPlacementH€ŸÅª¤Pøé#"*õÿõü·	EagerKernelExecuteHÈÀ«¤P¨åıÃS"dõÿõü·	IteratorGetNextHø±ÿ¬¤P¸ñ¥¾SZ,
+	long_nameIteratorGetNext:IteratorGetNextZ
+is_eager1"bõÿõü·	IteratorGetNextOp::DoComputeH€‡Ä­¤Pğ…ª½SZ
+id0Z
+iter_num0Z
+element_size2648"úõÿõü·	Iterator::ModelHˆ‰ñ°¤PèĞŸ´SZ@
+shapes6<unknown> [?] [] <unknown> [?] [?] <unknown> <unknown>Z
+id8657191748248320100Z8
+types/float int64 int64 float int64 int64 float floatZ
+
+cpu_budget0Z
+	algorithm
+hill climbZ
+
+ram_budget0B"·õÿõü·	Iterator::MaxIntraOpParallelismHÀ³‹Â¤Pğ¤Ç¢SZ@
+shapes6<unknown> [?] [] <unknown> [?] [?] <unknown> <unknown>Z
+id3180932204159320951Z 
+	parent_id8657191748248320100Z3
+	long_name&Iterator::Model::MaxIntraOpParallelismZ8
+types/float int64 int64 float int64 int64 float floatZ
+parallelism1"¡õÿõü·	Iterator::FlatMapHÓÙÂ¤P¨—ƒ¡SZ 
+	parent_id3180932204159320951Z<
+	long_name/Iterator::Model::MaxIntraOpParallelism::FlatMapZ8
+types/float int64 int64 float int64 int64 float floatZ@
+shapes6<unknown> [?] [] <unknown> [?] [?] <unknown> <unknown>Z
+id-4009283202773765470"Ñõÿõü·	Iterator::FromTensorH¨ÜıÂ¤PÈÂ_Z
+shapes[]Z
+id-6455639244178042577Z!
+	parent_id-4009283202773765470ZH
+	long_name;Iterator::Model::MaxIntraOpParallelism::FlatMap::FromTensorZ
+typesint32"dõÿõü·	1InstantiatedCapturedFunction::RunWithBorrowedArgsHøéÈÆ¤PğÎÊEZ
+id-8172812671807320564"6õÿõü·	MakeIterator::GeneratorDatasetH ‘‘¦PØºòì"²õÿõü·	Iterator::GeneratorH°È…€·PØ†’ã@Z@
+shapes6<unknown> [?] [] <unknown> [?] [?] <unknown> <unknown>Z
+id-2132452051294136780Z!
+	parent_id-4009283202773765470ZJ
+	long_name=Iterator::Model::MaxIntraOpParallelism::FlatMap[0]::GeneratorZ8
+types/float int64 int64 float int64 int64 float float"dõÿõü·	1InstantiatedCapturedFunction::RunWithBorrowedArgsHğØ»·PøşÏlZ
+id-2427422105595742754"eõÿõü·	1InstantiatedCapturedFunction::RunWithBorrowedArgsH€Ğ…ğ·Pˆ×Ôï?Z
+id-2907171587982223971"(õÿõü·	convert_to_tensorHĞ¨»øPàá"(õÿõü·	convert_to_tensorH ‹ˆÂøP€«Â"(õÿõü·	convert_to_tensorH¨…ÅøPˆö¶"(õÿõü·	convert_to_tensorH¨€İÇøP¸ü…"'õÿõü·	convert_to_tensorHèŞöÉøPÀÇz"'õÿõü·	convert_to_tensorH ÒüËøP¨Øw"'õÿõü·	convert_to_tensorHŠôÍøP€°m"'õÿõü·	convert_to_tensorHà³ĞøPÚy"Uõÿõü·	callHĞãÈùP°±·ı×Z
+tracing_count1Z!
+tf_function_calltraced-nonXla"4õÿõü·	tf.function-graph_buildingH°šäÎúPĞÔ¶ÈŠ"(õÿõü·	convert_to_tensorHÈ÷€Ğµ~Pğ»Ã"(õÿõü·	convert_to_tensorHØÅìÖµ~PĞó¬")õÿõü·	convert_to_tensorH¨§øåµ~P“­º"(õÿõü·	convert_to_tensorH ·îõ¸~P°„"(õÿõü·	convert_to_tensorHàáÖ˜º~P­…"(õÿõü·	convert_to_tensorHµõ€»~Pà‡í"(õÿõü·	convert_to_tensorHğÛ“ˆ¼~Pà•¹r"(õÿõü·	convert_to_tensorHçÖà½~P˜øµk"(õÿõü·	convert_to_tensorH¸äèí¾~PÈÑ×"(õÿõü·	convert_to_tensorHğŒï÷¾~Pğß½"(õÿõü·	convert_to_tensorH˜–Èì¿~P  Ğ"(õÿõü·	convert_to_tensorHˆÜÿâÀ~P°€Ë")õÿõü·	convert_to_tensorHÈ‚êìÀ~P âÛ"(õÿõü·	convert_to_tensorHÀüÑšÁ~P€‘“Y"(õÿõü·	convert_to_tensorHğæœĞÃ~Pğœ€"(õÿõü·	convert_to_tensorH˜ÆÄÜÃ~P –ú"(õÿõü·	convert_to_tensorH€×‚îÄ~P ¢÷U"(õÿõü·	convert_to_tensorHĞ‰«»Æ~Pğöâ"(õÿõü·	convert_to_tensorHø«™ÅÆ~PÈ¢º"(õÿõü·	convert_to_tensorHÈÜùÈÇ~P˜œæW"(õÿõü·	convert_to_tensorHĞ¼ñ•É~PÈ¹ß"(õÿõü·	convert_to_tensorHğæùŸÉ~P¸Ì"(õÿõü·	convert_to_tensorH€¥µ™Ê~Pğ‹Ü"(õÿõü·	convert_to_tensorHˆŞ‘£Ê~P€Éµ")õÿõü·	convert_to_tensorH°² ıî€PÀ“¬")õÿõü·	convert_to_tensorHÈ¶€ªñ€PÀÜê"*õÿõü·	convert_to_tensorH’ÅÌñ€P˜»‹á")õÿõü·	convert_to_tensorH¨€´±ó€P°Ùà{")õÿõü·	convert_to_tensorH¨üÛ¯ô€P°Æ¨t")õÿõü·	convert_to_tensorHÀıåûõ€P¸šù")õÿõü·	convert_to_tensorHèİ„ö€PøŸ")õÿõü·	convert_to_tensorHàœ°ö€Pø¬Ø")õÿõü·	convert_to_tensorH¸éç”ö€PÂş")õÿõü·	convert_to_tensorH¸œøø€P¸›çv")õÿõü·	convert_to_tensorH àŠ›ú€P˜‡õ")õÿõü·	convert_to_tensorHØÓì¨ú€P¸›Ì")õÿõü·	convert_to_tensorH˜‡ŸÜû€PĞõ")õÿõü·	convert_to_tensorHÀ´ö£ü€P°ë"*õÿõü·	convert_to_tensorH Àìäı€P¨¦úÇ")õÿõü·	convert_to_tensorH¸ö¯ş€P¨”Û")õÿõü·	convert_to_tensorHàª’µş€PÀ²ş")õÿõü·	convert_to_tensorH¸©À•P°Š•")õÿõü·	convert_to_tensorHÜ¸¦Pˆïâ"Gõÿõü·	ExecutorState::ProcessH˜š¥µ‚P¸öæZ
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderH éå·‚P¨¬ÓZ
+is_eager0Z 
+	long_nameinput_2:Placeholder"5õÿõü·	ExecutorDoneCallbackH°…À‚PÀàHZ
+id-1"Hõÿõü·	ExecutorState::ProcessHØë»å†Pğ•ĞáZ
+id-1Z
+iter_num0"¤õÿõü·	StridedSliceH¨†ç†P€„÷¸Zn
+	long_nameaignnition_model/states_creation/transmitter_receiver_pair/build_state1/strided_slice:StridedSliceZ
+is_eager0"ˆõÿõü·	SubH¦ä¦ŒP€†¹“Z[
+	long_nameNignnition_model/states_creation/transmitter_receiver_pair/build_state1/sub:SubZ
+is_eager0"Šõÿõü·	CastHü£½P°§»Z]
+	long_namePignnition_model/states_creation/transmitter_receiver_pair/build_state1/Cast:CastZ
+is_eager0"qõÿõü·	Y_send_ignnition_model/states_creation/transmitter_receiver_pair/build_state1/Cast_0:_SendH¨´ÓÂPøãŸ"5õÿõü·	ExecutorDoneCallbackH¨¯ŸÆPĞŸNZ
+id-1")õÿõü·	convert_to_tensorHØ³ŒÕPˆä¶")õÿõü·	convert_to_tensorHĞ¯P¸çƒ")õÿõü·	convert_to_tensorH¨²Ÿ“Pğ‡‡"*õÿõü·	convert_to_tensorHàÉò¡P˜ŞÈ­")õÿõü·	convert_to_tensorH¨Ú¡«ÕP¸ÿş")õÿõü·	convert_to_tensorHØŒÅ’×Pè†¤")õÿõü·	convert_to_tensorHÈø˜³ØP€’ô")õÿõü·	convert_to_tensorHØ×ïÉÙPÈÔÖ")õÿõü·	convert_to_tensorHø•îßÚP¨¬Ù")õÿõü·	convert_to_tensorHˆàª„ÛP¨îÃ")õÿõü·	convert_to_tensorHèº·ÜP˜à"*õÿõü·	convert_to_tensorHˆâ“ÀÜPÀ©°™")õÿõü·	convert_to_tensorHØ¢ÇïÜP¾¦"Gõÿõü·	ExecutorState::ProcessH€„‹¡àP¨´å
+Z
+id-1Z
+iter_num0"¥õÿõü·	CastHØÒı¢àPÈ”•Zx
+	long_namekignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"¯õÿõü·	PackH˜ıÑ¥àPØ¬¤Z
+	long_nametignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape:PackZ
+is_eager0"”õÿõü·	}_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape_0:_SendHÈìï©àP¨¯["5õÿõü·	ExecutorDoneCallbackHøÏš«àPĞä7Z
+id-1"Gõÿõü·	ExecutorState::ProcessH¨øÕàP¸ıÕZ
+id-1Z
+iter_num0"¤õÿõü·	CastHøÂÄÖàPÈéRZx
+	long_namekignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"‹õÿõü·	t_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_0:_SendHø•Ğ×àPÈÆ4"5õÿõü·	ExecutorDoneCallbackH¸´®ØàPÈ¦Z
+id-1")õÿõü·	convert_to_tensorHèù×°áPÈ˜ê")õÿõü·	convert_to_tensorHø«óµâPøÜÎ")õÿõü·	convert_to_tensorHØÚíØâPğâ¿")õÿõü·	convert_to_tensorH˜Ç—ßãP ğß"*õÿõü·	convert_to_tensorHÈ‘çãPğîê˜")õÿõü·	convert_to_tensorHÀõƒ’äP˜Œš"Gõÿõü·	ExecutorState::ProcessHˆëá‡æPøÇÀZ
+id-1Z
+iter_num0"§õÿõü·	CastH¨¿÷ˆæPà¤Z
+is_eager0Zz
+	long_namemignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:Cast"°õÿõü·	PackHøÌÈŠæPÕQZƒ
+	long_namevignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape:PackZ
+is_eager0"–õÿõü·	_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape_0:_SendH ß€ŒæPÀÚJ"5õÿõü·	ExecutorDoneCallbackHàöŠæPĞ‘)Z
+id-1"Gõÿõü·	ExecutorState::ProcessH¸ã³ÍæPĞ‹¢Z
+iter_num0Z
+id-1"¦õÿõü·	CastH¸Ã‘ÎæPğêiZz
+	long_namemignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:CastZ
+is_eager0"õÿõü·	v_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1_0:_SendHğ¬ÇÏæPèÄ?"5õÿõü·	ExecutorDoneCallbackH¨€±ĞæP€»Z
+id-1")õÿõü·	convert_to_tensorHØÁ¾–çPĞÑ")õÿõü·	convert_to_tensorH¨ûª•èP¸Üã")õÿõü·	convert_to_tensorHØ°¨¸èPè©Å")õÿõü·	convert_to_tensorH€ßÀéPĞ•ø"*õÿõü·	convert_to_tensorHøÓÁÈéP°Í—")õÿõü·	convert_to_tensorH€ıéòéPèã‚"Gõÿõü·	ExecutorState::ProcessHèğ¬ËëPØÛ»Z
+id-1Z
+iter_num0"¦õÿõü·	CastHè…£ÌëP ºtZ
+is_eager0Zz
+	long_namemignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:Cast"°õÿõü·	PackHÀÓÂÍëPØäDZƒ
+	long_namevignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape:PackZ
+is_eager0"–õÿõü·	_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape_0:_SendHØƒ×ÎëP€Ø6"5õÿõü·	ExecutorDoneCallbackH€’½ÏëP¨òZ
+id-1"Gõÿõü·	ExecutorState::ProcessHğëõëPĞéÙZ
+iter_num0Z
+id-1"¦õÿõü·	CastHØƒßõëPè”OZz
+	long_namemignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:CastZ
+is_eager0"õÿõü·	v_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2_0:_SendHÜğöëPø¿1"5õÿõü·	ExecutorDoneCallbackH˜òÉ÷ëPØúZ
+id-1")õÿõü·	convert_to_tensorHˆ£‰¸ğP¸É“")õÿõü·	convert_to_tensorH¸³ÁğPı—"*õÿõü·	convert_to_tensorH‹èÉğPÈ«œˆ")õÿõü·	convert_to_tensorHÈèÌ‡ôPÈš“")õÿõü·	convert_to_tensorH ÂĞôP¨·‚")õÿõü·	convert_to_tensorH˜ø–™ôPø†Óx")õÿõü·	convert_to_tensorHèÁğ´û„Pè™ñ")õÿõü·	convert_to_tensorH˜Œøøü„P€¿å")õÿõü·	convert_to_tensorH¸Ò»ˆı„P€å”y")õÿõü·	convert_to_tensorH „„ş„Pój")õÿõü·	convert_to_tensorHĞ™«ñş„P¨§óh")õÿõü·	convert_to_tensorHÙ¤Œ€…P±Ú"(õÿõü·	convert_to_tensorHè€’”€…P€’w")õÿõü·	convert_to_tensorHè×İ›€…Pà«Ş")õÿõü·	convert_to_tensorHğĞ„¢€…Pààù")õÿõü·	convert_to_tensorHØ¬šâ…Pˆ›ş"*õÿõü·	convert_to_tensorH°Ô„ë…PĞ£ó‰")õÿõü·	convert_to_tensorH˜ Á„ƒ…P—³")õÿõü·	convert_to_tensorHøšÓ‰ƒ…Pğà“"Hõÿõü·	ExecutorState::ProcessHˆ”ˆ……PŞš¯Z
+id-1Z
+iter_num0"Èõÿõü·	StridedSliceH¨›Š……P¸î×Z’
+	long_name„ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSliceZ
+is_eager0"¹õÿõü·	PackHØø²……P·Î¢ZŠ
+	long_nameüignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape:PackZ
+is_eager0"õÿõü·	…_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape_0:_SendHĞï´‰…P È™"5õÿõü·	ExecutorDoneCallbackH¨±°¶‰…PÈéRZ
+id-1"Gõÿõü·	ExecutorState::ProcessHü¾™Š…PàáÃZ
+iter_num0Z
+id-1"Èõÿõü·	StridedSliceHÀæ½šŠ…PÀÎÈZ
+is_eager0Z’
+	long_name„ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSlice"õÿõü·	…_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_0:_SendHÈıãŠ…Pà >"5õÿõü·	ExecutorDoneCallbackH¸ÓÔŠ…P ÅZ
+id-1")õÿõü·	convert_to_tensorH¨ô€‹…P˜Æà")õÿõü·	convert_to_tensorHÀè·ú‹…P€ŠÍ")õÿõü·	convert_to_tensorH€¢à‰Œ…P ëáp")õÿõü·	convert_to_tensorHĞçìüŒ…PØÔ¯j")õÿõü·	convert_to_tensorHĞøÃé…P°£«i")õÿõü·	convert_to_tensorHˆ³ı…P€ãÙ"(õÿõü·	convert_to_tensorH­”……PĞ¡w")õÿõü·	convert_to_tensorHø”İŒ…PĞ±Â")õÿõü·	convert_to_tensorHˆÂÖ’…Pàòó")õÿõü·	convert_to_tensorH°›”¿…PĞÑä"*õÿõü·	convert_to_tensorH îçÉ…P¸’ıÀ")õÿõü·	convert_to_tensorH°Ú°ÿ‘…P°¾Ú")õÿõü·	convert_to_tensorH˜õî„’…PÈ”•"Gõÿõü·	ExecutorState::ProcessHĞ…›ü”…PÀñ¶Z
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceHğñ¢ÿ”…Pø¿œZ”
+	long_name†ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSliceZ
+is_eager0"ºõÿõü·	PackH˜ãĞ‡•…P¨ŒZŒ
+	long_nameşignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape:PackZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape_0:_SendHèæÈ‹•…PĞŒ~"5õÿõü·	ExecutorDoneCallbackHØÅ•…P€™KZ
+id-1"Gõÿõü·	ExecutorState::ProcessHÈ§ñğ•…Pğå¯Z
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceH “‡ò•…PàüÃZ
+is_eager0Z”
+	long_name†ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSlice"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1_0:_SendHèµ¾õ•…PèÛa"5õÿõü·	ExecutorDoneCallbackH–İö•…P˜Ü2Z
+id-1")õÿõü·	convert_to_tensorHà¸ªñ—…Pèë ")õÿõü·	convert_to_tensorHõÉú—…P¨Å¡"*õÿõü·	convert_to_tensorHø×½˜…P ­²Ì")õÿõü·	convert_to_tensorHÀÄ …¨…PÀ®¦")õÿõü·	convert_to_tensorHè›ªˆª…PĞê¬"*õÿõü·	convert_to_tensorH ‹£ª…P¨ŸÆç"*õÿõü·	convert_to_tensorHèÊ¬…PÈÇ‚Ó"*õÿõü·	convert_to_tensorH í¬ç­…Pøì£Ğ")õÿõü·	convert_to_tensorH ¥É‰°…P ¾Ã")õÿõü·	convert_to_tensorHø¬…—°…Pˆøß")õÿõü·	convert_to_tensorH€ñ£°…P€£’")õÿõü·	convert_to_tensorH˜œÓ¬°…Pğ­¡")õÿõü·	convert_to_tensorH ”ƒµ³…PØëŒ"*õÿõü·	convert_to_tensorHĞÜƒÇ³…PĞî”Ä")õÿõü·	convert_to_tensorHèûÄ¤¶…P˜…½")õÿõü·	convert_to_tensorH¸àá­¶…Pˆ‘¨"Gõÿõü·	ExecutorState::ProcessHØÌÂ±º…PøÖ Z
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceHˆá­´º…P€íZ”
+	long_name†ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSliceZ
+is_eager0"ºõÿõü·	PackH˜¢Ç»º…PøæZŒ
+	long_nameşignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape:PackZ
+is_eager0" õÿõü·	‡_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape_0:_SendH°ÕÑ¿º…PÀˆ"5õÿõü·	ExecutorDoneCallbackHğòÁº…PÀéEZ
+id-1"Gõÿõü·	ExecutorState::ProcessH€­ù§»…P¨õ‹Z
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceH°ç‡©»…PğˆİZ”
+	long_name†ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSliceZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2_0:_SendH˜…Î«»…PğÖF"5õÿõü·	ExecutorDoneCallbackHğ¯Ï¬»…PğÂ#Z
+id-1")õÿõü·	convert_to_tensorHÀÖ«ê¼…P¨§¥")õÿõü·	convert_to_tensorHÃõñ¼…PØî"*õÿõü·	convert_to_tensorHÈÚ¹…½…PÈÌãÀ")õÿõü·	convert_to_tensorH –ÎÖÀ…Pø©Ü")õÿõü·	convert_to_tensorH€¡şåÂ…PÀåç")õÿõü·	convert_to_tensorHğ‚áÄ…P¹û")õÿõü·	convert_to_tensorHĞş°šÅ…P˜€"*õÿõü·	convert_to_tensorH¨ı×¯Å…PğçÎª"*õÿõü·	convert_to_tensorH¨éˆ‘Æ…PÑ¹½")õÿõü·	convert_to_tensorHèİ§õÉ…PˆøÜ"*õÿõü·	convert_to_tensorH¸ëïùÉ…P˜£ÌË"*õÿõü·	convert_to_tensorHÀ’ƒÇÊ…P¨Ô–‚")õÿõü·	convert_to_tensorHà¸¬øÌ…P¨ñ¿")õÿõü·	convert_to_tensorHàÒ‘ŒÍ…P°ÁÖ")õÿõü·	convert_to_tensorHˆê×æÎ…PÂû")õÿõü·	convert_to_tensorHØõë¾Ğ…P€Ì±")õÿõü·	convert_to_tensorH¨—‡±Ñ…PÇ¦"*õÿõü·	convert_to_tensorH¨ıµÀÑ…P¸‹ÿÎ"*õÿõü·	convert_to_tensorH€œé…Ò…PĞÜã‹")õÿõü·	convert_to_tensorHèŸœ¤Õ…PÀ®©"*õÿõü·	convert_to_tensorHØ¯Ä¨Õ…P Ç‰¸")õÿõü·	convert_to_tensorHˆŞ‡íÕ…Pè­{")õÿõü·	convert_to_tensorH€‘Ô—Ø…P˜Ô‚")õÿõü·	convert_to_tensorHˆÊ§Ø…P˜¨á")õÿõü·	convert_to_tensorHˆ€ùıÙ…P¸ê…")õÿõü·	convert_to_tensorH€¼ÊÒÛ…PÀŞ–")õÿõü·	convert_to_tensorH€ï×ÅÜ…P°é¥"*õÿõü·	convert_to_tensorHà°ŞÔÜ…PÈÖ»å"*õÿõü·	convert_to_tensorHø‚ì™İ…PÀ¡••")õÿõü·	convert_to_tensorH˜æ³Óà…P°°¸"*õÿõü·	convert_to_tensorHğ€Û×à…P¸º´Æ"*õÿõü·	convert_to_tensorHÈÓÊŸá…P¸ˆó‚")õÿõü·	convert_to_tensorHğüÒßã…P°ˆï")õÿõü·	convert_to_tensorHˆ—îîã…PĞ–Å")õÿõü·	convert_to_tensorHÈİ„Åå…Pøêğ")õÿõü·	convert_to_tensorHˆ·ı”ç…PĞ·À")õÿõü·	convert_to_tensorH€‡Èúç…PĞö«"*õÿõü·	convert_to_tensorHè­ä‰è…P€ÆÏÇ"*õÿõü·	convert_to_tensorHğüÛÍè…P áÆˆ")õÿõü·	convert_to_tensorH°ãÂäë…PèÜ±"*õÿõü·	convert_to_tensorH€øŞèë…P°‡Ö¼")õÿõü·	convert_to_tensorHÀÃâ«ì…P¨ƒÆ{")õÿõü·	convert_to_tensorH¨£îİî…P€€÷")õÿõü·	convert_to_tensorH˜ˆªîî…P œò")õÿõü·	convert_to_tensorHØãÍğ…PÀ ")õÿõü·	convert_to_tensorHØúÜò…PØ‚µ")õÿõü·	convert_to_tensorH€÷¿•ó…PğÓ»")õÿõü·	convert_to_tensorH¸©¢œó…PèÂ")õÿõü·	convert_to_tensorH€Õ•…õ…PÀ¨«")õÿõü·	convert_to_tensorH¨——“õ…P ¬")õÿõü·	convert_to_tensorHØŠõ”ø…PĞãÛ")õÿõü·	convert_to_tensorH€ò·¥ø…PØ¶ú")õÿõü·	convert_to_tensorHøÏ¶€û…Pà…¾")õÿõü·	convert_to_tensorHĞ¨·˜û…PˆÎí")õÿõü·	convert_to_tensorH˜àÉ¥û…P°ˆò"Gõÿõü·	ExecutorState::ProcessHˆ±¥ğü…P˜—™Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHĞšòòü…P¨†§Z 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHÈÁ±ÿü…PØØHZ
+id-1"*õÿõü·	convert_to_tensorHè——ñı…PøÒƒ¦")õÿõü·	convert_to_tensorHÀ˜ƒÎÿ…P˜©½")õÿõü·	convert_to_tensorHˆÆü’ƒ†P¸³Á")õÿõü·	convert_to_tensorH€ìÇ©ƒ†P¸¯ò"*õÿõü·	convert_to_tensorH€Æäæ„†P¨ÿû¡")õÿõü·	convert_to_tensorH˜ã¼††P˜Ä´")õÿõü·	convert_to_tensorHÀ¸×Ñ††PĞä«")õÿõü·	convert_to_tensorHÈïæàˆ†P°¡º")õÿõü·	convert_to_tensorHÊóùˆ†P¨ĞÁ"*õÿõü·	convert_to_tensorHèì‹û†P°¦ßø")õÿõü·	convert_to_tensorH€²†¦’†PÈŒâ")õÿõü·	convert_to_tensorH¸£Î®’†PØ‘­")õÿõü·	convert_to_tensorHè¢º³’†P°µà")õÿõü·	convert_to_tensorHÀØö¤•†PèÊ´")õÿõü·	convert_to_tensorHÀß‹¹•†P ¢ù")õÿõü·	convert_to_tensorHğìÃ•†PˆûÕ"Gõÿõü·	ExecutorState::ProcessHø¦Ó–—†Pø‘ºZ
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderH¸éŸ™—†P€—–Z 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHğÛ½¡—†PĞÀCZ
+id-1")õÿõü·	convert_to_tensorHğ¿³Ü˜†PàØÏ"*õÿõü·	convert_to_tensorHøü§ š†P˜şµ”")õÿõü·	convert_to_tensorHàÙ³ÿ›†PğĞÂ")õÿõü·	convert_to_tensorH ‘¿Šœ†P°Š•")õÿõü·	convert_to_tensorHğîƒ¹†PÈÃ¯"*õÿõü·	convert_to_tensorHÀšÌŠ †PĞ–«İ")õÿõü·	convert_to_tensorH¨¦¬ª¢†PØ­ú"*õÿõü·	convert_to_tensorH˜¶¼ª¦†Pˆº·®")õÿõü·	convert_to_tensorHˆü ¨†P ñ²")õÿõü·	convert_to_tensorHà‚Æö­†PÈƒë")õÿõü·	convert_to_tensorH¸·ëĞ±†Pø†µ"*õÿõü·	convert_to_tensorH¸Šæ´†PØúì")õÿõü·	convert_to_tensorH¸ã¯Ş¶†Pèøõ")õÿõü·	convert_to_tensorHØÑùÔı†PàÑû")õÿõü·	convert_to_tensorHÀñÁäı†Pğà–"(õÿõü·	convert_to_tensorHÀ‚Îìı†P¨Òy"Gõÿõü·	ExecutorState::ProcessHĞÏ•Šÿ†P Ò×Z
+iter_num0Z
+id-1"Tõÿõü·	PlaceholderHØØ™Œÿ†PÉÏZ 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHøÙ”‘ÿ†P /Z
+id-1")õÿõü·	convert_to_tensorHğÕİÄ…‡P¨ï–")õÿõü·	convert_to_tensorHØ–€†‡PĞ—¤")õÿõü·	convert_to_tensorHÀíÙá‡P¨»Î")õÿõü·	convert_to_tensorH¸Í›ç‡P¨‡"*õÿõü·	convert_to_tensorH¨ùïõ‡P€ÏÁ¤")õÿõü·	convert_to_tensorHàÔê›“‡Pø›·")õÿõü·	convert_to_tensorHÈ¨Ÿ›”‡Pààù")õÿõü·	convert_to_tensorHèÙ ì”‡Pˆ¥Ñ"*õÿõü·	convert_to_tensorHØ­Ç÷”‡P˜ª¿—"*õÿõü·	convert_to_tensorHÀ§ô¯•‡Pààğ")õÿõü·	convert_to_tensorHèş¢ú—‡P€„Ï"*õÿõü·	convert_to_tensorH ¢–ı—‡P€¯ôÜ")õÿõü·	convert_to_tensorH²Àª˜‡PàÇ£X")õÿõü·	convert_to_tensorH¨à¯ú™‡P˜ŞØ")õÿõü·	convert_to_tensorHŸÖƒš‡Pğ»É")õÿõü·	convert_to_tensorHèÌÖ›‡P˜ØÚ")õÿõü·	convert_to_tensorH¸éºø›‡PèÉä")õÿõü·	convert_to_tensorHÈÚºœ‡P …Ù"*õÿõü·	convert_to_tensorHÙ¾Äœ‡PàæàÙ")õÿõü·	convert_to_tensorHæîœ‡P £ÁY")õÿõü·	convert_to_tensorHà•Ø„Ÿ‡PàíË"*õÿõü·	convert_to_tensorHğÆ‡Ÿ‡PˆüšÚ")õÿõü·	convert_to_tensorHğĞø³Ÿ‡PÀıW")õÿõü·	convert_to_tensorHĞŞêƒ¡‡PÈ¹ß")õÿõü·	convert_to_tensorHÀŒúŒ¡‡PøèÇ")õÿõü·	convert_to_tensorHÂˆ¢‡P°ÓÙ")õÿõü·	convert_to_tensorHØ£ğø¢‡P°Çİ")õÿõü·	convert_to_tensorHø­´¸£‡P˜‹Ê"*õÿõü·	convert_to_tensorHèÚÂ£‡PèïçÚ")õÿõü·	convert_to_tensorHç¦í£‡P°¤±Y")õÿõü·	convert_to_tensorH€üƒ¦‡Pø÷Å"*õÿõü·	convert_to_tensorHğáç†¦‡P Ù")õÿõü·	convert_to_tensorHØ–Ò²¦‡PØ¯¡W")õÿõü·	convert_to_tensorHØ«Øş§‡Pà´Ş")õÿõü·	convert_to_tensorHØÎÛ‡¨‡P ©Ê")õÿõü·	convert_to_tensorH µ÷í¨‡PÈìÎ")õÿõü·	convert_to_tensorH¨êÂ‹©‡Pˆ¯")õÿõü·	convert_to_tensorHğ™Ÿª‡P¨ÄÑ")õÿõü·	convert_to_tensorH¸¹åÂª‡Pø˜»")õÿõü·	convert_to_tensorHˆÁŸó«‡P Øç")õÿõü·	convert_to_tensorH öõ•¬‡P Ó¿")õÿõü·	convert_to_tensorHÀóê¬‡PøĞÒ")õÿõü·	convert_to_tensorHØİ‹­‡P ë·")õÿõü·	convert_to_tensorHˆ¤³šµ‡PĞ¦™")õÿõü·	convert_to_tensorHÈÅ÷Ìµ‡P°•Á")õÿõü·	convert_to_tensorH˜³Ä¿·‡PÀÊö")õÿõü·	convert_to_tensorH°ºÍä·‡P˜…Ì")õÿõü·	convert_to_tensorHèÖâ‘¹‡P˜Ãá")õÿõü·	convert_to_tensorHˆ‰Ê³¹‡PÀ×È")õÿõü·	convert_to_tensorHÀÌÅ‡PÈ ‘")õÿõü·	convert_to_tensorH üÃ×Å‡PĞ¸™"(õÿõü·	convert_to_tensorHˆÜôÙÅ‡Pàm")õÿõü·	convert_to_tensorHïËÛÅ‡P˜…d")õÿõü·	convert_to_tensorH‰²ÂÆ‡PØ”•^")õÿõü·	convert_to_tensorH°¥‡¤Ç‡Pğıõi")õÿõü·	convert_to_tensorH˜ĞØÈ‡P€Á’T")õÿõü·	convert_to_tensorHÈ¸¦çÈ‡PØ¼…Q")õÿõü·	convert_to_tensorHğıÑºÉ‡PÀğ£P")õÿõü·	convert_to_tensorHø“¯Ê‡Pøõœ")õÿõü·	convert_to_tensorHˆÏ¹çÌ‡Pèæ„")õÿõü·	convert_to_tensorHĞ›ûßÍ‡PèÏâ")õÿõü·	convert_to_tensorHˆµÎÏÎ‡Pûë")õÿõü·	convert_to_tensorH°†£…Ô‡PèÚˆ")õÿõü·	convert_to_tensorH¨Î•¤Õ‡P˜«é")õÿõü·	convert_to_tensorHàôº×‡PØÂö")õÿõü·	convert_to_tensorHàş€Ø‡Pˆó·")õÿõü·	convert_to_tensorHÈË€‡Ù‡PğµÎ")õÿõü·	convert_to_tensorHàé´©Ù‡P°Å´")õÿõü·	convert_to_tensorHˆ·ñ­Ú‡PèêÙ"*õÿõü·	convert_to_tensorHˆ½×µÚ‡PàŸ£”")õÿõü·	convert_to_tensorH˜•¡âÚ‡P€œ"Gõÿõü·	ExecutorState::ProcessHÀú ËÜ‡PØòZ
+iter_num0Z
+id-1"¥õÿõü·	CastH€ŒªÍÜ‡Pğ×–Zx
+	long_namekignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"¯õÿõü·	PackHĞûĞÜ‡Pğ‡Z
+	long_nametignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape:PackZ
+is_eager0"”õÿõü·	}_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape_0:_SendH ŞŠÒÜ‡PÀªZ"5õÿõü·	ExecutorDoneCallbackHÈ”·ÓÜ‡P€Ã=Z
+id-1"Gõÿõü·	ExecutorState::ProcessHˆ¡ıÜ‡PğˆÚZ
+iter_num0Z
+id-1"¤õÿõü·	CastHàÛïıÜ‡PÀÔLZx
+	long_namekignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"‹õÿõü·	t_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_0:_SendH˜ÉúşÜ‡PØ¦/"5õÿõü·	ExecutorDoneCallbackH”ÒÿÜ‡P¸ÒZ
+id-1")õÿõü·	convert_to_tensorHğıÁİ‡PèÓ·")õÿõü·	convert_to_tensorH “Ó¼Ş‡PíÆ")õÿõü·	convert_to_tensorH€É¤ŞŞ‡P€Ãº")õÿõü·	convert_to_tensorH äºâß‡Pğ…Ş"*õÿõü·	convert_to_tensorHğÉ°êß‡PÈ™Š")õÿõü·	convert_to_tensorH˜Òš”à‡Pàëœ"Gõÿõü·	ExecutorState::ProcessHˆ­æşá‡PØš¤Z
+id-1Z
+iter_num0"§õÿõü·	CastHˆŒîÿá‡PØÙ›Zz
+	long_namemignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:CastZ
+is_eager0"°õÿõü·	PackH°Ù¼â‡PÀ×KZƒ
+	long_namevignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape:PackZ
+is_eager0"–õÿõü·	_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape_0:_SendH˜ìß‚â‡P…B"5õÿõü·	ExecutorDoneCallbackHøÌÜƒâ‡P˜¡Z
+id-1"Gõÿõü·	ExecutorState::ProcessH¸ÖÌªâ‡PÀ‰ßZ
+id-1Z
+iter_num0"¦õÿõü·	CastHğîŸ«â‡P¸¤OZz
+	long_namemignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:CastZ
+is_eager0"õÿõü·	v_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1_0:_SendH¨Ê°¬â‡P°ò("5õÿõü·	ExecutorDoneCallbackHàÙ†­â‡PøZ
+id-1")õÿõü·	convert_to_tensorH±Ñøâ‡PĞœÌ")õÿõü·	convert_to_tensorHâ…ûã‡PÈòÌ")õÿõü·	convert_to_tensorH¨äéä‡PÀæÃ")õÿõü·	convert_to_tensorHĞŸ¦¥å‡PĞæİ"*õÿõü·	convert_to_tensorH€­å‡PÀ§Ÿ‘")õÿõü·	convert_to_tensorH×¶Øå‡P€¯‘"Gõÿõü·	ExecutorState::ProcessHØé¬§ç‡PÈğšZ
+id-1Z
+iter_num0"¦õÿõü·	CastHˆş¨ç‡PûnZz
+	long_namemignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:CastZ
+is_eager0"°õÿõü·	PackHè¹©ç‡P¨˜9Zƒ
+	long_namevignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape:PackZ
+is_eager0"–õÿõü·	_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape_0:_SendH ™¶ªç‡Pø³5"5õÿõü·	ExecutorDoneCallbackH“›«ç‡PÀçZ
+id-1"Gõÿõü·	ExecutorState::ProcessH°¹úĞç‡PàÏÒZ
+iter_num0Z
+id-1"¦õÿõü·	CastHğŠÈÑç‡P€–LZ
+is_eager0Zz
+	long_namemignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:Cast"õÿõü·	v_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2_0:_SendH¸ÕÎÒç‡Pèë2"5õÿõü·	ExecutorDoneCallbackHĞ°«Óç‡PÈ¦Z
+id-1")õÿõü·	convert_to_tensorH˜¾ıíë‡P˜ş÷"(õÿõü·	convert_to_tensorHø¶Úöë‡P°ùy")õÿõü·	convert_to_tensorHÀ›íşë‡PÈúv")õÿõü·	convert_to_tensorHøÎÄÈî‡Pˆİè"(õÿõü·	convert_to_tensorHŠêĞî‡P¸š|")õÿõü·	convert_to_tensorHğŠñØî‡PÈ²Äl")õÿõü·	convert_to_tensorH°‰´ø‡Pğ Õ")õÿõü·	convert_to_tensorHÀ²……ù‡PğµÎ")õÿõü·	convert_to_tensorHè£“ù‡PÀœëk")õÿõü·	convert_to_tensorH ÄËú‡P¸ë‹p"*õÿõü·	convert_to_tensorHø”ôú‡Pø”İ")õÿõü·	convert_to_tensorHØë¡£ü‡Pğ½õ")õÿõü·	convert_to_tensorHøû«ü‡Pı—")õÿõü·	convert_to_tensorHøœì²ü‡PĞ«Ä")õÿõü·	convert_to_tensorHÈÃü¸ü‡P¨œˆ")õÿõü·	convert_to_tensorHğ€íåı‡PÀôè"*õÿõü·	convert_to_tensorHè—îı‡PøÅ£ş")õÿõü·	convert_to_tensorH¨“ñış‡PØ®")õÿõü·	convert_to_tensorHèâ†ƒÿ‡PØñ"Gõÿõü·	ExecutorState::ProcessH˜¥Ñ÷€ˆP¸íï	Z
+iter_num0Z
+id-1"Èõÿõü·	StridedSliceHˆÃ§ù€ˆPÀ§ÒZ’
+	long_name„ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSliceZ
+is_eager0"¸õÿõü·	PackH˜®¼ı€ˆPˆ…²Z
+is_eager0ZŠ
+	long_nameüignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape:Pack"õÿõü·	…_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape_0:_SendHˆßßÿ€ˆP¸•T"5õÿõü·	ExecutorDoneCallbackHˆğ€ˆP ª&Z
+id-1"Gõÿõü·	ExecutorState::ProcessH¨ÅÁ¹ˆPÀÕZ
+id-1Z
+iter_num0"Èõÿõü·	StridedSliceH€Ö¡ºˆP¨Â¨Z’
+	long_name„ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSliceZ
+is_eager0"õÿõü·	…_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_0:_SendHÈĞ•¼ˆP€Ş4"5õÿõü·	ExecutorDoneCallbackH˜½ô¼ˆPà›Z
+id-1")õÿõü·	convert_to_tensorH˜­°Œ‚ˆPè¸À")õÿõü·	convert_to_tensorH°Ö û‚ˆP¨¯Ø")õÿõü·	convert_to_tensorHèùï‰ƒˆPèÑÁm")õÿõü·	convert_to_tensorHøòßùƒˆPÈ£Ïj")õÿõü·	convert_to_tensorHèÆÚæ„ˆP˜ÈÎh")õÿõü·	convert_to_tensorHèÊöõ…ˆPÈàÒ"(õÿõü·	convert_to_tensorH€µ¹ı…ˆPè„~")õÿõü·	convert_to_tensorHÈËè„†ˆP˜¦¾")õÿõü·	convert_to_tensorHØşßŠ†ˆPÀÁù")õÿõü·	convert_to_tensorHø‘ì®‡ˆPÀúæ"*õÿõü·	convert_to_tensorHè‰·‡ˆP€¸Ì’")õÿõü·	convert_to_tensorH€òÄˆˆP ª")õÿõü·	convert_to_tensorHÈ³ŒÉˆˆP°ğù"Gõÿõü·	ExecutorState::ProcessH¨ÉŒËŠˆP°’¶Z
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceHà­šÌŠˆP°„Z”
+	long_name†ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSliceZ
+is_eager0"¹õÿõü·	PackHˆïéÎŠˆPØ¢ZZŒ
+	long_nameşignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape:PackZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape_0:_SendHÊ©ĞŠˆP¸ì7"5õÿõü·	ExecutorDoneCallbackH°œ–ÑŠˆPÀêZ
+id-1"Gõÿõü·	ExecutorState::ProcessHïÅˆ‹ˆPø”àZ
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceHÈÈ­‰‹ˆPˆ¦§Z
+is_eager0Z”
+	long_name†ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSlice"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1_0:_SendHøÖ‹‹ˆP¨<"5õÿõü·	ExecutorDoneCallbackHÈ±‚Œ‹ˆPˆÜZ
+id-1")õÿõü·	convert_to_tensorHà°ƒú‹ˆPè™")õÿõü·	convert_to_tensorH ¼…ÿ‹ˆP¸šù")õÿõü·	convert_to_tensorHğÆ¶‹ŒˆP€¹¯g")õÿõü·	convert_to_tensorH†ã“ˆP€øÒ")õÿõü·	convert_to_tensorHˆ¬¢İ”ˆPØ–Û"*õÿõü·	convert_to_tensorHØ©øì”ˆP€†à†")õÿõü·	convert_to_tensorHøó™ö•ˆPÈ•¡m")õÿõü·	convert_to_tensorHøûêå–ˆP ÂÚi")õÿõü·	convert_to_tensorH€¼îú—ˆPÀ­Ö")õÿõü·	convert_to_tensorHøÄÆ‚˜ˆPˆ†ˆ")õÿõü·	convert_to_tensorHøƒ˜ˆPØéæ")õÿõü·	convert_to_tensorH°Ø»”˜ˆP°Ï„")õÿõü·	convert_to_tensorHÀªøÂ™ˆPğÉñ"*õÿõü·	convert_to_tensorH€…«Ë™ˆPˆ­õü")õÿõü·	convert_to_tensorH âŠÚšˆPÈ”’")õÿõü·	convert_to_tensorHøú…ßšˆP€ë€"Gõÿõü·	ExecutorState::ProcessH€ õĞœˆP˜áÂZ
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceH€Ë·ÒœˆP¸ˆüZ”
+	long_name†ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSliceZ
+is_eager0"ºõÿõü·	PackH˜÷ğÕœˆPÀ ‡ZŒ
+	long_nameşignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape:PackZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape_0:_SendHø§ú×œˆPˆÃJ"5õÿõü·	ExecutorDoneCallbackH˜©ÙœˆP°“Z
+id-1"Gõÿõü·	ExecutorState::ProcessH°×ˆP¨¾ÍZ
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceH˜ı·‘ˆPÈö¡Z”
+	long_name†ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSliceZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2_0:_SendHèÎœ“ˆPÀŠ;"5õÿõü·	ExecutorDoneCallbackH¨Ø”ˆPà˜Z
+id-1")õÿõü·	convert_to_tensorH€¿Ÿ‚ˆP˜€")õÿõü·	convert_to_tensorH Ø’‡ˆPÀš†")õÿõü·	convert_to_tensorHøüñ“ˆP¸±ãg")õÿõü·	convert_to_tensorH°ó© ˆPà¼…")õÿõü·	convert_to_tensorHàœ™¥¡ˆP¨íí")õÿõü·	convert_to_tensorHğä–ú¡ˆP¨åÆ")õÿõü·	convert_to_tensorH¸¶«»¢ˆPˆÕÁ"*õÿõü·	convert_to_tensorH¨ÎèÅ¢ˆPÀÉá“")õÿõü·	convert_to_tensorH Ô½ø¢ˆPàÉÈ")õÿõü·	convert_to_tensorHà¦÷Á¤ˆP¸¹Å"*õÿõü·	convert_to_tensorHàÓßÄ¤ˆPØ²‡‰")õÿõü·	convert_to_tensorHÈ›ñ¤ˆPè­")õÿõü·	convert_to_tensorHÀàóí¥ˆPÕÎ")õÿõü·	convert_to_tensorH¸ƒêö¥ˆPÀ–±")õÿõü·	convert_to_tensorH¸’èò¦ˆPØéé")õÿõü·	convert_to_tensorH˜ÂæÙ§ˆPøêó")õÿõü·	convert_to_tensorHÈÿ³™¨ˆPÀ³Ô"*õÿõü·	convert_to_tensorH¸îÔ£¨ˆPøâ®ˆ")õÿõü·	convert_to_tensorHØ™ĞÍ¨ˆPÍ›")õÿõü·	convert_to_tensorHØÅ’ªˆPàöÈ"*õÿõü·	convert_to_tensorHğÏ•ªˆP°…Ø‡")õÿõü·	convert_to_tensorHàÊ¸ÀªˆPØËê")õÿõü·	convert_to_tensorH°Å§Å«ˆP¨ˆå")õÿõü·	convert_to_tensorHÈ³¶Ï«ˆP˜ùÌ")õÿõü·	convert_to_tensorH¸è“×¬ˆPˆãæ")õÿõü·	convert_to_tensorHØàè¼­ˆPø”æ")õÿõü·	convert_to_tensorHèÖæş­ˆP¨ëÄ"*õÿõü·	convert_to_tensorH¥ğˆ®ˆPÀç¼œ")õÿõü·	convert_to_tensorHø«–´®ˆP°µ")õÿõü·	convert_to_tensorHØ¿Í–°ˆPø¸Ú"*õÿõü·	convert_to_tensorHĞåÔ™°ˆPØåç")õÿõü·	convert_to_tensorH¸Ê£É°ˆPÈÉ¤")õÿõü·	convert_to_tensorH¬æÇ±ˆPğüà")õÿõü·	convert_to_tensorH˜êíĞ±ˆP¸àµ")õÿõü·	convert_to_tensorHè¿•Õ²ˆPØİí")õÿõü·	convert_to_tensorH€ÛÅÌ³ˆPØÚî")õÿõü·	convert_to_tensorHĞÔ‰š´ˆPğÇÈ"*õÿõü·	convert_to_tensorHŠì¤´ˆPğÏšÄ")õÿõü·	convert_to_tensorHÀøŸƒµˆPààí")õÿõü·	convert_to_tensorH¸—ÅÛ¶ˆPˆ§ú"*õÿõü·	convert_to_tensorHøÑçŞ¶ˆP°æê’")õÿõü·	convert_to_tensorHğ³Ë·ˆP Å")õÿõü·	convert_to_tensorH¸¡ä’¸ˆPøâÌ")õÿõü·	convert_to_tensorH–ß›¸ˆPĞ¨Å")õÿõü·	convert_to_tensorHğŠù›¹ˆP¨ˆå")õÿõü·	convert_to_tensorHÈä´ºˆPÈõË")õÿõü·	convert_to_tensorHèÕşİºˆP˜ğ")õÿõü·	convert_to_tensorH°ì¶âºˆP È–")õÿõü·	convert_to_tensorH€Ï¶ä»ˆPÿÀ"(õÿõü·	convert_to_tensorH ¥İí»ˆP Ïm")õÿõü·	convert_to_tensorH˜ìÄñ½ˆPØâ")õÿõü·	convert_to_tensorHøİÇü½ˆPˆƒ‰")õÿõü·	convert_to_tensorH“¹“¿ˆP°¸â")õÿõü·	convert_to_tensorH ’ÙŸ¿ˆPØ¤ƒ"(õÿõü·	convert_to_tensorH Ïƒ§¿ˆP°…v"Gõÿõü·	ExecutorState::ProcessHğ·¥ÀˆPØØ³Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHğ‘‚ŸÀˆPàüÃZ 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHøù‡¤ÀˆPˆš.Z
+id-1")õÿõü·	convert_to_tensorHğ…âÀˆPˆµÕm")õÿõü·	convert_to_tensorHğ¬îòÁˆPèíØ")õÿõü·	convert_to_tensorHø‚ÂÚÃˆP¸µğ")õÿõü·	convert_to_tensorH€‹ÏçÃˆPĞ£ ")õÿõü·	convert_to_tensorHøïâÜÄˆP¸‘Çf")õÿõü·	convert_to_tensorHøïÄãÅˆPÀÈÍ")õÿõü·	convert_to_tensorHĞå†ñÅˆP ÿ×")õÿõü·	convert_to_tensorH°Ô±ìÆˆP¨šß")õÿõü·	convert_to_tensorH€õ±øÆˆPØç½"*õÿõü·	convert_to_tensorHø†ËˆP ¢„¢")õÿõü·	convert_to_tensorHĞ ‰¹ÌˆPŠá")õÿõü·	convert_to_tensorH§à¾ÌˆPàÑş")õÿõü·	convert_to_tensorHø±ÖÁÌˆPğµÎ")õÿõü·	convert_to_tensorHÈÅ×ÙÍˆPÀ­Ö")õÿõü·	convert_to_tensorHğ¶ÿãÍˆP¨º")õÿõü·	convert_to_tensorH¸ÊµéÍˆP¸ş«"Gõÿõü·	ExecutorState::ProcessHğÉÉâÎˆP¸ôÌZ
+iter_num0Z
+id-1"Tõÿõü·	PlaceholderHè’õãÎˆP˜Ç³Z 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHĞëËèÎˆPØ»(Z
+id-1")õÿõü·	convert_to_tensorH˜‘»ÖÏˆP˜¯¾")õÿõü·	convert_to_tensorHØ§„ÎĞˆPÀšã`")õÿõü·	convert_to_tensorH¨§ĞÑˆP¸²ñ")õÿõü·	convert_to_tensorH æê×ÑˆP°÷Ê")õÿõü·	convert_to_tensorHàÔ¨åÒˆP€–É")õÿõü·	convert_to_tensorHøÒÙÑÓˆP¨¶Êt")õÿõü·	convert_to_tensorH€µ¢èÔˆPğóã")õÿõü·	convert_to_tensorH ÚíòÖˆPÉk")õÿõü·	convert_to_tensorHˆóäş×ˆP¸úÙ")õÿõü·	convert_to_tensorHØÿ‘‘ÛˆP€Ü…")õÿõü·	convert_to_tensorHÀ”ìÜˆPøÛø")õÿõü·	convert_to_tensorHÈ¬ÃêİˆP ‘¯a")õÿõü·	convert_to_tensorHÈˆ‘ÒŞˆPàÚø")õÿõü·	convert_to_tensorHàò…çâˆPè›")õÿõü·	convert_to_tensorHĞôğòâˆP Ú“")õÿõü·	convert_to_tensorH€ßÂ‚ãˆP¸½—"Gõÿõü·	ExecutorState::ProcessHøù‹ŠäˆP¨ú°Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHà¬Î‹äˆPî™Z 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackH¸ÓñäˆPĞ—'Z
+id-1")õÿõü·	convert_to_tensorH˜«Ğ‰êˆP¨êî")õÿõü·	convert_to_tensorH°ŞÇ½êˆPàî¡")õÿõü·	convert_to_tensorH˜Ñ’óˆPÈÂ")õÿõü·	convert_to_tensorHĞ¢³—óˆP¸“¥"*õÿõü·	convert_to_tensorH¸¿‚¥óˆPØÃ™")õÿõü·	convert_to_tensorHøÏ¤÷öˆPø¨‰")õÿõü·	convert_to_tensorH°‘Ë÷ˆP ÊÂ")õÿõü·	convert_to_tensorHĞ´¤‹øˆP˜ˆË"*õÿõü·	convert_to_tensorHÈ«ù•øˆP€•¬é")õÿõü·	convert_to_tensorHØïÈøˆPàŒû]")õÿõü·	convert_to_tensorHˆì”èúˆPØŸØ"*õÿõü·	convert_to_tensorHã›ëúˆPØàºâ")õÿõü·	convert_to_tensorHˆÀİšûˆPğøƒX")õÿõü·	convert_to_tensorHğòòüˆPØ‡à")õÿõü·	convert_to_tensorHğÛÅşüˆPğªœ")õÿõü·	convert_to_tensorH˜á„ŠşˆPÈÑ×")õÿõü·	convert_to_tensorHØãİğşˆP¨”á")õÿõü·	convert_to_tensorHÀÏÄ³ÿˆPøÍÓ"*õÿõü·	convert_to_tensorH˜Ïâ½ÿˆPˆ‚Š")õÿõü·	convert_to_tensorH¨Ë¨‘€‰Pˆ¨°_")õÿõü·	convert_to_tensorH°¢­®‚‰Pè‚Ò"*õÿõü·	convert_to_tensorHÈö¯±‚‰PÈ¸õØ")õÿõü·	convert_to_tensorH¨ñÉİ‚‰Pø»ÔV")õÿõü·	convert_to_tensorHè‡‘©„‰Pæ")õÿõü·	convert_to_tensorH­²„‰P¸¼Á")õÿõü·	convert_to_tensorHÈÃ´¬…‰PÀ˜İ")õÿõü·	convert_to_tensorHè˜ô†‰Pàìõ")õÿõü·	convert_to_tensorHŒ£Î†‰P°ĞÚ"*õÿõü·	convert_to_tensorHàÄ¡Ø†‰PĞ¹ØØ")õÿõü·	convert_to_tensorHˆÛ°‚‡‰PèáÑX")õÿõü·	convert_to_tensorHèÇÛ–‰‰Pğ—Ø"*õÿõü·	convert_to_tensorHØóÓ™‰‰PØÍˆÙ")õÿõü·	convert_to_tensorHĞ¶ıÅ‰‰PğÖV")õÿõü·	convert_to_tensorHÈĞ¡‘‹‰PÀôè")õÿõü·	convert_to_tensorHˆó¹š‹‰Pø’º")õÿõü·	convert_to_tensorHğ‚©€Œ‰PøÓÑ")õÿõü·	convert_to_tensorHè£·Œ‰P€º½")õÿõü·	convert_to_tensorH€¦¡‰P˜¢ì")õÿõü·	convert_to_tensorHøÆñÃ‰PÀ×È")õÿõü·	convert_to_tensorHÀ‘îî‰P˜Æà")õÿõü·	convert_to_tensorH˜½Ù’‰Pèë¯")õÿõü·	convert_to_tensorH¨¯½ë‰PÀ¤Ù")õÿõü·	convert_to_tensorH€™‹‰PøÅ¬")õÿõü·	convert_to_tensorH¸Æ´ê—‰Pšµ")õÿõü·	convert_to_tensorH°Ì¡•˜‰Pˆéä")õÿõü·	convert_to_tensorH°·£ç™‰P€ñş")õÿõü·	convert_to_tensorHÀ—¦š‰P€òÔ")õÿõü·	convert_to_tensorHàµàÙ›‰Pøğî")õÿõü·	convert_to_tensorH¸¬ª€œ‰P˜üÎ")õÿõü·	convert_to_tensorHÈ²°Ü©‰Pˆİå")õÿõü·	convert_to_tensorHØªüè©‰P¸û¯"(õÿõü·	convert_to_tensorHÈÔËë©‰PÀÑM")õÿõü·	convert_to_tensorHø´÷ì©‰P˜¦µ")õÿõü·	convert_to_tensorH¸³¤ó©‰P°…ğ")õÿõü·	convert_to_tensorHˆ”şö©‰PØµ¤")õÿõü·	convert_to_tensorH Áú©‰P Ô’")õÿõü·	convert_to_tensorH¸­ˆı©‰PĞÊ")õÿõü·	convert_to_tensorHˆÏùÿ©‰P¸‚"(õÿõü·	convert_to_tensorH¨­Ü‚ª‰PäL")õÿõü·	convert_to_tensorHĞÙ—ü¯‰P€ä¬")õÿõü·	convert_to_tensorHÈù´Ÿ±‰Pà€“")õÿõü·	convert_to_tensorHàÆıÀ²‰Pè¿‘")õÿõü·	convert_to_tensorH°ò‚Ã¹‰PĞÏ")õÿõü·	convert_to_tensorHĞ³´˜¼‰P¸øª")õÿõü·	convert_to_tensorHÛı˜¾‰P°ÇÚ")õÿõü·	convert_to_tensorH€”•©¿‰P°ğù")õÿõü·	convert_to_tensorHÀì¦ÕÀ‰PÀÊö")õÿõü·	convert_to_tensorHˆ¨†Á‰PèŒ¢")õÿõü·	convert_to_tensorH ò›Â‰Pğ«û"*õÿõü·	convert_to_tensorHˆ¼ß£Â‰PÀúñ¤")õÿõü·	convert_to_tensorHÀ«ƒÔÂ‰P°„š"Gõÿõü·	ExecutorState::ProcessH¸±¯äÄ‰P°‘Ô
+Z
+id-1Z
+iter_num0"¥õÿõü·	CastH€ÎëæÄ‰P˜šÂZx
+	long_namekignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"¯õÿõü·	PackH€€üéÄ‰Pğ²ÏZ
+	long_nametignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape:PackZ
+is_eager0"”õÿõü·	}_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape/shape_0:_SendH µÂìÄ‰P Æp"5õÿõü·	ExecutorDoneCallbackHø¿¡îÄ‰Pğô<Z
+id-1"Gõÿõü·	ExecutorState::ProcessHˆøÎ™Å‰Pğ¸ÊZ
+id-1Z
+iter_num0"¤õÿõü·	CastHğ•›šÅ‰PØÏKZx
+	long_namekignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast:CastZ
+is_eager0"‹õÿõü·	t_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_0:_SendH€Ì ›Å‰P †2"5õÿõü·	ExecutorDoneCallbackHà¤ö›Å‰PˆâZ
+id-1")õÿõü·	convert_to_tensorHˆÀ½”Æ‰PğÄÆ")õÿõü·	convert_to_tensorHĞ‡¥ğÇ‰P˜Ü©")õÿõü·	convert_to_tensorH¸”–¬È‰PØÑñ")õÿõü·	convert_to_tensorHĞÎµ¾Ê‰P°¢"*õÿõü·	convert_to_tensorHĞï€ÌÊ‰PÀĞÁ‰")õÿõü·	convert_to_tensorHĞÌÅ¨Ë‰PĞ€ù"Gõÿõü·	ExecutorState::ProcessHÀÍªµĞ‰PàÑÂZ
+iter_num0Z
+id-1"§õÿõü·	CastH¨€áºĞ‰PÀ—şZz
+	long_namemignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:CastZ
+is_eager0"±õÿõü·	PackHà˜¢ÁĞ‰P€ä©Z
+is_eager0Zƒ
+	long_namevignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape:Pack"—õÿõü·	_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_1/shape_0:_SendH¨ÄĞÆĞ‰P è¸"5õÿõü·	ExecutorDoneCallbackHØ‡ÖÉĞ‰P¸°KZ
+id-1"Gõÿõü·	ExecutorState::ProcessH˜ùüŠÑ‰P€—–Z
+id-1Z
+iter_num0"¦õÿõü·	CastH°åı‹Ñ‰PØİpZz
+	long_namemignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1:CastZ
+is_eager0"õÿõü·	v_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_1_0:_SendHÈõïÑ‰PĞÀC"5õÿõü·	ExecutorDoneCallbackHè¦çÑ‰PˆÙZ
+id-1")õÿõü·	convert_to_tensorHĞƒõÒ‰Pğâ°")õÿõü·	convert_to_tensorHøàä¡Õ‰Pà³…")õÿõü·	convert_to_tensorH¸ÆŒäÕ‰Pà‡í")õÿõü·	convert_to_tensorHØÃ¿µ×‰PÈÌ¬"*õÿõü·	convert_to_tensorHà›è¾×‰Pàö°")õÿõü·	convert_to_tensorH¸¢Ùò×‰PÙ"Gõÿõü·	ExecutorState::ProcessHÈ¡êÚ‰PÈ§¦Z
+iter_num0Z
+id-1"§õÿõü·	CastHøıçïÚ‰PàøåZz
+	long_namemignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:CastZ
+is_eager0"±õÿõü·	PackHÈî†÷Ú‰PĞ›óZƒ
+	long_namevignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape:PackZ
+is_eager0"—õÿõü·	_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Reshape_2/shape_0:_SendHÈŠÂüÚ‰Pèë¯"5õÿõü·	ExecutorDoneCallbackHÀğŠÿÚ‰PÑ|Z
+id-1"Gõÿõü·	ExecutorState::ProcessH€œ™´Û‰P°¯âZ
+id-1Z
+iter_num0"¦õÿõü·	CastH€ ë´Û‰PĞşXZz
+	long_namemignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2:CastZ
+is_eager0"õÿõü·	v_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/Cast_2_0:_SendHèÙ¶Û‰P°×1"5õÿõü·	ExecutorDoneCallbackH¸ØÚ¶Û‰P àZ
+id-1")õÿõü·	convert_to_tensorHÈÈ‘®à‰P¨½ú")õÿõü·	convert_to_tensorH€ÃÊºà‰PØ¦¬"*õÿõü·	convert_to_tensorH°íìÄà‰P°Ê´µ")õÿõü·	convert_to_tensorH¨İÑùã‰P°æ¦")õÿõü·	convert_to_tensorHÀù§ƒä‰PĞÓ"*õÿõü·	convert_to_tensorHˆ°ó‹ä‰PÈö—«")õÿõü·	convert_to_tensorHøî·’ñ‰PĞéÙ")õÿõü·	convert_to_tensorH˜©Ñ×ò‰Pğ¨ü"*õÿõü·	convert_to_tensorHø„öçò‰PØ·Ê€")õÿõü·	convert_to_tensorHĞä€ëó‰Pğù‘o")õÿõü·	convert_to_tensorHà®ĞÜô‰P°¤òm")õÿõü·	convert_to_tensorH ÉÛƒö‰Pè·ê")õÿõü·	convert_to_tensorH ç¶Œö‰PàöÈ")õÿõü·	convert_to_tensorHè…˜ö‰P ñ¦")õÿõü·	convert_to_tensorHà‚Å§ö‰P üÕ")õÿõü·	convert_to_tensorH˜¯‰‰ø‰PÈ°â"*õÿõü·	convert_to_tensorH°ë’ø‰P¸™çŒ")õÿõü·	convert_to_tensorH˜«›¸ù‰PíÀ")õÿõü·	convert_to_tensorHÈ–á½ù‰Pı”"Gõÿõü·	ExecutorState::ProcessH€¾ùü‰PĞÎZ
+id-1Z
+iter_num0"Èõÿõü·	StridedSliceHàí„€ı‰Pğ¹‚Z’
+	long_name„ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSliceZ
+is_eager0"¸õÿõü·	PackHØ¹‹ı‰PçZŠ
+	long_nameüignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape:PackZ
+is_eager0"õÿõü·	…_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape/shape_0:_SendHˆØÀ’ı‰P˜î©"5õÿõü·	ExecutorDoneCallbackHèìü”ı‰PèšMZ
+id-1"Gõÿõü·	ExecutorState::ProcessHÈ™Çãı‰PÈÜ÷Z
+id-1Z
+iter_num0"Èõÿõü·	StridedSliceHÀœ¶äı‰Pèâ²Z’
+	long_name„ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice:StridedSliceZ
+is_eager0"õÿõü·	…_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_0:_SendHèÍ·æı‰P˜Ó5"5õÿõü·	ExecutorDoneCallbackHè¡™çı‰PĞÁZ
+id-1")õÿõü·	convert_to_tensorHˆ¤Œ±ÿ‰P˜˜–")õÿõü·	convert_to_tensorH ¡ëï€ŠPà•’"*õÿõü·	convert_to_tensorH ‹ƒŠP°È—±"*õÿõü·	convert_to_tensorH˜‹«·‚ŠPà£–Š"*õÿõü·	convert_to_tensorH¨“¶ÆƒŠP°ƒğ›")õÿõü·	convert_to_tensorH¨í™…ŠPØƒ‹")õÿõü·	convert_to_tensorHğñ¿¢…ŠP˜ú¥")õÿõü·	convert_to_tensorHğÀáª…ŠPĞâ…")õÿõü·	convert_to_tensorHèÔß²…ŠPØ›ƒ")õÿõü·	convert_to_tensorHÀ°’´‡ŠPàéö"*õÿõü·	convert_to_tensorHø€å¼‡ŠPèœº")õÿõü·	convert_to_tensorHàîãØˆŠPÀÃŸ")õÿõü·	convert_to_tensorH°¹ëİˆŠPÀÛš"Gõÿõü·	ExecutorState::ProcessHè½îæŠŠP€×Â
+Z
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceHˆ¼óèŠŠPˆÒ¼Z”
+	long_name†ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSliceZ
+is_eager0"ºõÿõü·	PackHè³‰íŠŠPÀÉ£ZŒ
+	long_nameşignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape:PackZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_1/shape_0:_SendHØÛ¯ïŠŠPèüV"5õÿõü·	ExecutorDoneCallbackH°áæğŠŠP¸„0Z
+id-1"Gõÿõü·	ExecutorState::ProcessH°ÍŒ¬‹ŠPĞ¿äZ
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceHøñõ¬‹ŠPØ¯Z”
+	long_name†ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1:StridedSliceZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_1_0:_SendH€œï®‹ŠP€ç1"5õÿõü·	ExecutorDoneCallbackH ¤Ê¯‹ŠPè¶Z
+id-1")õÿõü·	convert_to_tensorHˆ¬å£ŒŠPÈ«´")õÿõü·	convert_to_tensorH¨îô¨ŒŠP¨Éù"*õÿõü·	convert_to_tensorHÀÀµŒŠP€·ù”")õÿõü·	convert_to_tensorH¨ÔÅß—ŠPÀŒŞ")õÿõü·	convert_to_tensorHˆú¯¯™ŠPÈƒñ")õÿõü·	convert_to_tensorH˜î—Á™ŠP€Ù{")õÿõü·	convert_to_tensorHĞİË¿šŠPèÚÄk")õÿõü·	convert_to_tensorHøÑÀ­›ŠPˆ¶·i")õÿõü·	convert_to_tensorHè‘ÇœŠP íà")õÿõü·	convert_to_tensorHğ´¡ÏœŠP­ˆ")õÿõü·	convert_to_tensorHø¸ëÖœŠP€¹ä")õÿõü·	convert_to_tensorHØ¦¨İœŠP¸—ú")õÿõü·	convert_to_tensorHÀ€ÈŒŠPÀÇ÷"*õÿõü·	convert_to_tensorHàëê”ŠPĞşÉÿ")õÿõü·	convert_to_tensorH¨¾â¤ŸŠPˆ—¦")õÿõü·	convert_to_tensorH Ûæ©ŸŠPğõŒ"Gõÿõü·	ExecutorState::ProcessHØá¹¦¡ŠPÀ•Ã
+Z
+id-1Z
+iter_num0"Êõÿõü·	StridedSliceHğ—É¨¡ŠPøÜÈZ
+is_eager0Z”
+	long_name†ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSlice"ºõÿõü·	PackH¸¸Ô¬¡ŠPÈüŸZŒ
+	long_nameşignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape:PackZ
+is_eager0"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/Reshape_2/shape_0:_SendH˜î…¯¡ŠPˆ–Y"5õÿõü·	ExecutorDoneCallbackH¸ƒ°°¡ŠP¾/Z
+id-1"Gõÿõü·	ExecutorState::ProcessHÈÏÖé¡ŠPˆãàZ
+iter_num0Z
+id-1"Êõÿõü·	StridedSliceHà˜¹ê¡ŠPğ°¦Z
+is_eager0Z”
+	long_name†ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2:StridedSlice"Ÿõÿõü·	‡_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/strided_slice_2_0:_SendH˜Â­ì¡ŠPø¡;"5õÿõü·	ExecutorDoneCallbackHĞ¤’í¡ŠP°¥Z
+id-1")õÿõü·	convert_to_tensorHˆîÒİ¢ŠPğÓ¾")õÿõü·	convert_to_tensorHèÙéâ¢ŠPğ–‚")õÿõü·	convert_to_tensorHğ˜»ï¢ŠPˆ†Êh")õÿõü·	convert_to_tensorH «‚”¥ŠP€€ú")õÿõü·	convert_to_tensorHàéù“¦ŠPˆÅğ")õÿõü·	convert_to_tensorH †í¦ŠP µÉ")õÿõü·	convert_to_tensorHØ–¯§ŠPàğÊ"*õÿõü·	convert_to_tensorHçÍ¹§ŠPØŠ”—")õÿõü·	convert_to_tensorH¸¬Ùí§ŠPàÉÈ")õÿõü·	convert_to_tensorHˆ§í¹©ŠPøëÉ"*õÿõü·	convert_to_tensorHĞ÷ë¼©ŠPùŠ")õÿõü·	convert_to_tensorHğ©¯ê©ŠPĞÄ‰")õÿõü·	convert_to_tensorHø—ÂçªŠPĞõØ")õÿõü·	convert_to_tensorHè¹ÕğªŠP˜¯»")õÿõü·	convert_to_tensorH¸­ˆî«ŠPå")õÿõü·	convert_to_tensorH°À–Ò¬ŠP°…ó")õÿõü·	convert_to_tensorHğ¥Ç‘­ŠPĞ–Î"*õÿõü·	convert_to_tensorH¸Ñæ›­ŠP˜ÿ†")õÿõü·	convert_to_tensorHˆéÅ­ŠP°İ ")õÿõü·	convert_to_tensorHÈ‘Š¯ŠPÈşÈ"*õÿõü·	convert_to_tensorH¸éùŒ¯ŠP¸ˆáˆ")õÿõü·	convert_to_tensorHØäş¸¯ŠPøû")õÿõü·	convert_to_tensorH€ Ü´°ŠPÈÈ")õÿõü·	convert_to_tensorHà÷Ã½°ŠPøèÇ")õÿõü·	convert_to_tensorHğ¯û¸±ŠP°—í")õÿõü·	convert_to_tensorH€Á×¬²ŠPà“æ")õÿõü·	convert_to_tensorHˆø ‚³ŠP¨Òö"*õÿõü·	convert_to_tensorH€¿³ŠPèª§")õÿõü·	convert_to_tensorHèºÕÇ³ŠP‘¬")õÿõü·	convert_to_tensorH°°÷ĞµŠPàæñ"*õÿõü·	convert_to_tensorH ÎÁÖµŠPÈúîÓ")õÿõü·	convert_to_tensorHØÉ“ ¶ŠP˜ù½")õÿõü·	convert_to_tensorHÈÓ‰Ü·ŠPØİ")õÿõü·	convert_to_tensorHˆùæ·ŠPøÍĞ")õÿõü·	convert_to_tensorHè‰«¹ŠPûë")õÿõü·	convert_to_tensorH˜¡ä¼ºŠP¨“‹")õÿõü·	convert_to_tensorH‹÷•»ŠP˜¥ë"*õÿõü·	convert_to_tensorH¨ê„¢»ŠPøç³ç")õÿõü·	convert_to_tensorH€³•î»ŠPˆÀ§")õÿõü·	convert_to_tensorH¸Ï­—¾ŠPà©µ"*õÿõü·	convert_to_tensorHàÔ›¾ŠP•ÄÀ")õÿõü·	convert_to_tensorH Ã¦á¾ŠPø¼ ")õÿõü·	convert_to_tensorHÈÓº‡ÀŠP°é¥")õÿõü·	convert_to_tensorHˆæş‘ÀŠPĞ¥Æ")õÿõü·	convert_to_tensorHøòßªÁŠP „ƒ")õÿõü·	convert_to_tensorHˆÈÃŠP¸¬ó")õÿõü·	convert_to_tensorHà†ˆÀÃŠPˆı„")õÿõü·	convert_to_tensorH˜ûÚÄÃŠPĞŒû")õÿõü·	convert_to_tensorH ‚ŒÑÄŠP€ïÕ"(õÿõü·	convert_to_tensorHÈºÆÛÄŠP€­n")õÿõü·	convert_to_tensorH° á±ÇŠPğ“ƒ")õÿõü·	convert_to_tensorH€ï–ÃÇŠPğÔ—")õÿõü·	convert_to_tensorH€ë¼•ÉŠPèâ¯")õÿõü·	convert_to_tensorHÀ¢³§ÉŠP€™È")õÿõü·	convert_to_tensorHÇ‹²ÉŠPøÔ§"Gõÿõü·	ExecutorState::ProcessHà‚¦ÙÊŠPÀŠ¦Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHĞˆ„ÛÊŠP¨ÖÈZ
+is_eager0Z 
+	long_nameinput_2:Placeholder"5õÿõü·	ExecutorDoneCallbackHÄößÊŠP¸Š.Z
+id-1"*õÿõü·	convert_to_tensorHØõ‘¾ËŠP¨ÒŸ˜")õÿõü·	convert_to_tensorHøÙÉ›ÎŠP€ëı")õÿõü·	convert_to_tensorH˜„ŸªÒŠP ËŒ")õÿõü·	convert_to_tensorH°‹ÒÁÒŠPˆ·Ë"*õÿõü·	convert_to_tensorHøÀéÓŠPÍÜ–")õÿõü·	convert_to_tensorH¨İ¤¬ÕŠP€å‚")õÿõü·	convert_to_tensorHğ©ª»ÕŠP˜¥è")õÿõü·	convert_to_tensorHàøœÇÖŠP˜õú")õÿõü·	convert_to_tensorHøñËÓÖŠPğÙ¿"*õÿõü·	convert_to_tensorHàÚ¾°ÛŠP°î¾û")õÿõü·	convert_to_tensorH·‹ÙİŠP Ë‰")õÿõü·	convert_to_tensorH˜¸ÓáİŠPÀó’")õÿõü·	convert_to_tensorH°€ÚäİŠP ®õ")õÿõü·	convert_to_tensorHˆÏ™àŠP ®õ"(õÿõü·	convert_to_tensorHğİË¥àŠP°öz")õÿõü·	convert_to_tensorH°íŸ«àŠP Ïç"Gõÿõü·	ExecutorState::ProcessHÀÀ­±áŠP€±®Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHèÔ³áŠP€ç«Z
+is_eager0Z 
+	long_nameinput_2:Placeholder"5õÿõü·	ExecutorDoneCallbackHˆ›ó·áŠPà”BZ
+id-1")õÿõü·	convert_to_tensorHø¿°âŠP¸ñÜ")õÿõü·	convert_to_tensorH¸·ö¹ãŠP°€œd")õÿõü·	convert_to_tensorHø¦–ÃäŠPÈÂÜ")õÿõü·	convert_to_tensorH°¥³ÊäŠPÈéÌ")õÿõü·	convert_to_tensorHØ®èåŠPèÉä"*õÿõü·	convert_to_tensorHßÓçæŠPˆ¦ƒŠ")õÿõü·	convert_to_tensorHˆŸÚœèŠPğóã")õÿõü·	convert_to_tensorHØ¶ÙÍêŠP ËËm")õÿõü·	convert_to_tensorH˜™•İëŠPÈ›é")õÿõü·	convert_to_tensorHÂ²ùîŠPø™")õÿõü·	convert_to_tensorHĞâ­øğŠPĞâˆ")õÿõü·	convert_to_tensorHàÔüñŠPğÖ—c")õÿõü·	convert_to_tensorHĞ˜ÃåòŠPĞÓŠ")õÿõü·	convert_to_tensorHøªÍ“÷ŠPÔø")õÿõü·	convert_to_tensorHÈıì÷ŠPàÔ€"(õÿõü·	convert_to_tensorHÀ†Å¥÷ŠPÈ‰r"Gõÿõü·	ExecutorState::ProcessHÈõ°¡øŠP¸Õ€Z
+id-1Z
+iter_num0"Tõÿõü·	PlaceholderHÈö€£øŠP£²Z 
+	long_nameinput_2:PlaceholderZ
+is_eager0"5õÿõü·	ExecutorDoneCallbackHĞÖß§øŠP€ó-Z
+id-1")õÿõü·	convert_to_tensorHĞ—íÁşŠPÈü")õÿõü·	convert_to_tensorHàú ‚ÿŠP€²“")õÿõü·	convert_to_tensorH ¨ÂÄ‹‹PÀÂÆ")õÿõü·	convert_to_tensorHˆ­®Ë‹‹PØ÷"*õÿõü·	convert_to_tensorHè·ğÚ‹‹PèÇĞô")õÿõü·	convert_to_tensorH¸ù´‹PÀÌŸ")õÿõü·	convert_to_tensorH¨§ë‘‹P¨åÆ")õÿõü·	convert_to_tensorH¨ª’Ô‘‹P–ã"*õÿõü·	convert_to_tensorH€ò•ß‘‹PÀñ™ì")õÿõü·	convert_to_tensorHè¿¶’’‹P¸ÓÉ^")õÿõü·	convert_to_tensorH¸¯šˆ•‹Pˆ®Î"*õÿõü·	convert_to_tensorHàŠ‹•‹P¸»Ëİ")õÿõü·	convert_to_tensorHğäú¸•‹PğÊ¼X")õÿõü·	convert_to_tensorH¸Óùˆ—‹Pø‚ì")õÿõü·	convert_to_tensorHˆùª’—‹PøıÀ")õÿõü·	convert_to_tensorHÈıí˜‹PèŞİ")õÿõü·	convert_to_tensorH¸ùÃô˜‹PˆÂñ")õÿõü·	convert_to_tensorHˆĞõ½™‹P°©ç"*õÿõü·	convert_to_tensorH¸àóÈ™‹P°âÔû")õÿõü·	convert_to_tensorHÀË÷÷™‹P˜»ùi")õÿõü·	convert_to_tensorHÀ·ˆ´œ‹P€âƒ"*õÿõü·	convert_to_tensorHø¸°·œ‹PàëŸü")õÿõü·	convert_to_tensorH˜èßëœ‹P€æ¸_")õÿõü·	convert_to_tensorHÈÓØÚ‹PğÒî")õÿõü·	convert_to_tensorH‰Ëä‹P€òÑ")õÿõü·	convert_to_tensorHˆ´÷åŸ‹PĞÂé")õÿõü·	convert_to_tensorHÈ›Ô ‹P€§í")õÿõü·	convert_to_tensorHø„‰Ÿ¡‹PÀÑÊ"*õÿõü·	convert_to_tensorHğü³©¡‹PÈû”ã")õÿõü·	convert_to_tensorH°Ñó×¡‹PØ®¹]")õÿõü·	convert_to_tensorH˜©ó£‹Pğ¦Ó"*õÿõü·	convert_to_tensorHø‰”ö£‹PˆÁÙ")õÿõü·	convert_to_tensorHâí¡¤‹PÑñW")õÿõü·	convert_to_tensorHÀğíî¥‹P°åÓ")õÿõü·	convert_to_tensorH˜†Ş÷¥‹P˜çÒ")õÿõü·	convert_to_tensorH€ÍŞ¦‹PàÉ×")õÿõü·	convert_to_tensorHà²Üû¦‹P˜Ö±")õÿõü·	convert_to_tensorHè•¢…¨‹PÈÑ×")õÿõü·	convert_to_tensorH¨šö§¨‹Pàµ´")õÿõü·	convert_to_tensorHØ±ÖÔ©‹P¸µğ")õÿõü·	convert_to_tensorH°¸ö©‹P¸İ¹")õÿõü·	convert_to_tensorHÀšĞª‹P°ñÏ")õÿõü·	convert_to_tensorHø€çğª‹P ë·")õÿõü·	convert_to_tensorH°ëæ¼½‹P¸÷Ñ")õÿõü·	convert_to_tensorH°‡Ü‚¾‹P ¤¢")õÿõü·	convert_to_tensorH¨Ôü„È‹Pù¿")õÿõü·	convert_to_tensorHèõ™ÁÉ‹P°¦è")õÿõü·	convert_to_tensorH€’ËıÊ‹Pà¨â")õÿõü·	convert_to_tensorH˜ÆÈ¡Ë‹P¨»Ô")õÿõü·	convert_to_tensorHè¹¿‹Ù‹Pø»Ö")õÿõü·	convert_to_tensorH€Åè—Ù‹PØÊ "(õÿõü·	convert_to_tensorHøË¦šÙ‹P¸ŒW")õÿõü·	convert_to_tensorHĞÈà›Ù‹P €¥")õÿõü·	convert_to_tensorHˆÖû¡Ù‹PÀÈÊ")õÿõü·	convert_to_tensorHàÏ°¥Ù‹P ¿™")õÿõü·	convert_to_tensorH¸ß´¨Ù‹PèË")õÿõü·	convert_to_tensorH°¬¯«Ù‹PÈ²‹")õÿõü·	convert_to_tensorHàÀš®Ù‹PèÈ"(õÿõü·	convert_to_tensorHĞ‡±Ù‹P€“M")õÿõü·	convert_to_tensorHğØü´Ü‹PÀ‘‰")õÿõü·	convert_to_tensorH°Ÿ•·İ‹PÈúó")õÿõü·	convert_to_tensorH¨€æ¦Ş‹PÀ˜İ")õÿõü·	convert_to_tensorHğ”¬­ğŒPˆ¡ê")õÿõü·	convert_to_tensorH°Ï³¹ğŒPè›—"*õÿõü·	convert_to_tensorHˆ˜éÏğŒP€Ê¦ó")õÿõü·	convert_to_tensorHğ¹Ğ€õŒPˆ¬œ")õÿõü·	convert_to_tensorHàó¹õŒP¨êî"2õÿõü·	TFE_Py_ExecuteCancelableHĞæ®‚ÄPàü¬›"<õÿõü·	"EagerExecute: __inference_call_843H¸¾ö™ÄP˜‘ü"Aõÿõü·	'EagerLocalExecute: __inference_call_843HÈäª›ÄPÈ¡¡€"7õÿõü·	EagerCopyToDeviceAndAddCacheKeyH¨àœÄP˜À"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyH°È˜¥ÄPàÊ0"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÀ¹±§ÄPØ³"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÈŸš¨ÄP˜ò"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÈ„ ©ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyH¸‡‚ªÄP°ê"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHà›æªÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyH€†Ë«ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÈôÅ¬ÄPøÒ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHàÏ¢­ÄPàÚ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHğı€®ÄPÈ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÀçà®ÄP°ê"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHˆ›Å¯ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHˆû¢°ÄP°ê"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHĞÌı°ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHà€Ú±ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHàªÉ²ÄP°ê"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHˆÎ¨³ÄPÈâ"Dõÿõü·	-TensorHandle::GetResourceHandleInfo WaitReadyHÀè¤´ÄPÈâ"5õÿõü·	ValidateInputTypeAndPlacementHˆÆÃùÉPèÀä"`õÿõü·	EagerKernelExecute 0HøìşÉP¸¸Ä›‡Z!
+	step_nameEagerKernelExecute 0Z
+group_id0"Võÿõü·	ExecutorState::ProcessH¸¢Ú³ÌP¨’Z
+group_id0Z
+id-1Z
+iter_num0"Võÿõü·	ExecutorState::ProcessH¨Ì¬µÌPè¤—Z
+id-1Z
+iter_num0Z
+group_id0"¡õÿõü·	ú_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2/axis_0:_SendH¨Á€·ÌPÈè|Z
+group_id0"Uõÿõü·	ExecutorState::ProcessHğ†Ü¸ÌPĞØ;Z
+group_id0Z
+id-1Z
+iter_num0"³õÿõü·	Œ_send_Func/ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/cond/else/_1/output/_79_0:_SendHàÌş¸ÌP€ÄZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHøÏ¤¹ÌPˆ‚6Z
+iter_num0Z
+group_id0Z
+id-1"¡õÿõü·	{_send_ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/pivot_t/_11_0:_SendHÈ”½¹ÌPøŠZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHˆÒç¹ÌP¨šbZ
+iter_num0Z
+group_id0Z
+id-1"Œõÿõü·	å_send_ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/concat/axis_0:_SendHØñµºÌP ïZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHÈ–ãºÌP€´BZ
+id-1Z
+iter_num0Z
+group_id0"ªõÿõü·	ƒ_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/concat/axis_0:_SendHÈ§‡»ÌP ÎZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHğì±»ÌPğ˜1Z
+id-1Z
+iter_num0Z
+group_id0"†õÿõü·	`_send_ignnition_model/states_creation/transmitter_receiver_pair/build_state1/zeros/Const_0:_SendH ıĞ»ÌP˜ËZ
+group_id0"Võÿõü·	ExecutorState::ProcessHÏï»ÌPğ‡Z
+iter_num0Z
+group_id0Z
+id-1"õÿõü·	Y_send_ignnition_model/states_creation/transmitter_receiver_pair/build_state1/Cast_0:_SendHé¼ÌP ÂZ
+group_id0"Uõÿõü·	ExecutorState::ProcessH¸»ÀÌP€ä2Z
+id-1Z
+iter_num0Z
+group_id0"¡õÿõü·	{_send_ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/pivot_f/_10_0:_SendH°·ŸÀÌP€ÍZ
+group_id0"»õÿõü·	”_send_ignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/add/y_0:_SendH¨ëÔÀÌPÈ»Z
+group_id0"Dõÿõü·	ExecutorDoneCallbackHÈğ°ÁÌPÀº+Z
+group_id0Z
+id-1"Võÿõü·	ExecutorState::ProcessH¨¸ÒÎP¸şœZ
+id-1Z
+iter_num0Z
+group_id0"Võÿõü·	ExecutorState::ProcessH€ÒúÒÎP¸ÛZ
+id-1Z
+iter_num0Z
+group_id0"¡õÿõü·	ú_send_ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2/axis_0:_SendH˜²ÿÓÎPø”iZ
+group_id0"Uõÿõü·	ExecutorState::ProcessH öœÕÎPØü<Z
+group_id0Z
+id-1Z
+iter_num0"³õÿõü·	Œ_send_Func/ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/cond/else/_1/output/_79_0:_SendHğ™ÀÕÎPˆîZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHø¼ëÕÎP¨¡6Z
+id-1Z
+iter_num0Z
+group_id0"†õÿõü·	`_send_ignnition_model/states_creation/transmitter_receiver_pair/build_state1/zeros/Const_0:_SendHàğ†ÖÎPÈ£Z
+group_id0"Uõÿõü·	ExecutorState::ProcessH°ˆ®ÖÎPğ4Z
+iter_num0Z
+group_id0Z
+id-1"¡õÿõü·	{_send_ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/pivot_f/_10_0:_SendHÈÎÖÎPà°Z
+group_id0"Uõÿõü·	ExecutorState::ProcessH˜ÍíÖÎP¦7Z
+id-1Z
+iter_num0Z
+group_id0"Œõÿõü·	å_send_ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/concat/axis_0:_SendHØ¢×ÎP€ÍZ
+group_id0"Uõÿõü·	ExecutorState::ProcessHØüï×ÎP»0Z
+id-1Z
+iter_num0Z
+group_id0"õÿõü·	Y_send_ignnition_model/states_creation/transmitter_receiver_pair/build_state1/Cast_0:_SendHø¾ØÎP¤Z
+group_id0"»õÿõü·	”_send_ignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/add/y_0:_SendH€ÁÄØÎPôZ
+group_id0"Dõÿõü·	ExecutorDoneCallbackH …ŒÙÎPàô"Z
+id-1Z
+group_id0"Nõÿõü·	FunctionRunHˆÏ²•ŞPğ‹ÍZ
+group_id0Z
+id-4063142782474738195"$õÿõü·	tf.constantHèŠè»øP˜Š™À"-õÿõü·	TFE_DeleteTensorHandleHƒªùûP°×1"1õÿõü·	TFE_Py_FastPathExecute_CH˜¡èüP˜…‚ç"-õÿõü·	TFE_DeleteTensorHandleH¸÷üüPèş"-õÿõü·	TFE_DeleteTensorHandleHÈìíŸüP¸”"1õÿõü·	EagerExecute: LogicalAndH èÑ¡üPØ«ÆÓ"6õÿõü·	EagerLocalExecute: LogicalAndH ²à¢üPèÄ±Ò"4õÿõü·	ValidateInputTypeAndPlacementH³ä„şPğ­*"9õÿõü·	EagerKernelExecuteH€µğ…şPÉ‚oZ
+group_id0"dõÿõü·	
+LogicalAndH Ü‘ˆşP ™¸kZ"
+	long_nameLogicalAnd:LogicalAndZ
+group_id0Z
+is_eager1")õÿõü·	convert_to_tensorHèœ¤‘ÿPğî¸"0õÿõü·	TFE_Py_FastPathExecute_CHèÊÜ•ÿP¸ìø".õÿõü·	EagerExecute: IdentityH°ıØœÿP¸Â"3õÿõü·	EagerLocalExecute: IdentityH¨Ì…ÿPèÎë"4õÿõü·	ValidateInputTypeAndPlacementHèŞÉ§ÿPĞå"9õÿõü·	EagerKernelExecuteH˜¼ù§ÿPàœæZ
+group_id0"]õÿõü·	IdentityHˆæ¨ÿPø¹3Z
+	long_nameIdentity:IdentityZ
+group_id0Z
+is_eager1"0õÿõü·	TFE_Py_FastPathExecute_CHˆÂÈ®ÿPàòí")õÿõü·	convert_to_tensorHØ½ªÓ€‘PÖ•")õÿõü·	convert_to_tensorHøïâÚ€‘Pà¶Ú"#õÿõü·	tf.constantH¨Äß€‘Pè¸¨	"-õÿõü·	TFE_DeleteTensorHandleH¨•Ôç€‘Pë ")õÿõü·	convert_to_tensorH€ä½ì€‘Pğ«à
+"#õÿõü·	tf.constantHÀ»€ğ€‘P€ "-õÿõü·	TFE_DeleteTensorHandleH€şÆô€‘P€å")õÿõü·	convert_to_tensorHÈö‹ø€‘PğÆ¶"#õÿõü·	tf.constantH¸èŸ†‘P€¬Œ"-õÿõü·	TFE_DeleteTensorHandleH ƒáŠ‘P°Õ"0õÿõü·	TFE_Py_ExecuteCancelableHÀâ‘PĞ—‹3"2õÿõü·	EagerExecute: WriteSummaryH áú“‘Pàãî."7õÿõü·	EagerLocalExecute: WriteSummaryHÀü¥”‘Pí¼."4õÿõü·	ValidateInputTypeAndPlacementHøˆåœ‘P¸Ş"9õÿõü·	EagerKernelExecuteHàô—‘P¨à¯%Z
+group_id0"jõÿõü·	WriteSummaryH Ñ‹‘PØàƒ$Z
+is_eager1Z&
+	long_nameWriteSummary:WriteSummaryZ
+group_id0"-õÿõü·	TFE_DeleteTensorHandleH°™™Ä‘P¨÷C"-õÿõü·	TFE_DeleteTensorHandleHØŒˆÅ‘P "-õÿõü·	TFE_DeleteTensorHandleHĞ²˜Å‘PÈâ"#õÿõü·	tf.constantHèÇ¬É‘PğùÒ"-õÿõü·	TFE_DeleteTensorHandleH¨ªÏ‘PĞú"-õÿõü·	TFE_DeleteTensorHandleHˆ±£Ò‘PøÆ"-õÿõü·	TFE_DeleteTensorHandleHØÚÄÒ‘PÀº+"-õÿõü·	TFE_DeleteTensorHandleH°ÜšØ‘PÈ‹"-õÿõü·	TFE_DeleteTensorHandleH€šßØ‘PÀ»"hõ—„–ŒExecutorState::ProcessHˆ²±ŞŞP´Ü}Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"’õ—„–ŒReadVariableOpHĞÛÂßŞPøİ¶xZË
+	long_name½ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ—„–ŒExecutorState::ProcessHğÙÍÜßPØÜü
+Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"æõ—„–ŒReadVariableOpHğİßP˜‹MZ 
+	long_name’ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"XõŒ÷¼¼ExecutorState::ProcessHàÏÍ·P€÷à4Z
+id-2427422105595742754Z
+iter_num0"HõŒ÷¼¼PyFuncHÈ«© ·Pˆãå+Z
+is_eager0Z
+	long_namePyFunc:PyFunc"GõŒ÷¼¼ExecutorDoneCallbackHĞÃ’Ó·PèÛŞZ
+id-2427422105595742754"hõŒ÷¼¼ExecutorState::ProcessHğùÿ¯ŞPèİ$Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"hõŒ÷¼¼ExecutorState::ProcessH°ŠÇÕŞPğÆşzZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"éõŒ÷¼¼ReadVariableOpHğö‹ÖŞP˜„…zZ¢
+	long_name”ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõŒ÷¼¼ExecutorState::ProcessHØäğĞßP€î‚Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"èõŒ÷¼¼ReadVariableOpHÀ¦±ÑßPĞ‹+Z
+is_eager0Z¢
+	long_name”ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0"gõŒ÷¼¼ExecutorState::ProcessHÀ›ˆÒßP¨ØwZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"çõŒ÷¼¼ReadVariableOpH˜Â·ÒßPÀêZ¡
+	long_name“ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõŒ÷¼¼ExecutorState::ProcessH¨ğ•ÓßPÈÒ­Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"çõŒ÷¼¼ReadVariableOpH ¶ÅÓßP° mZ
+is_eager0Z¡
+	long_name“ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"hõŒ÷¼¼ExecutorState::ProcessH°°ŞÔßPĞÜZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"çõŒ÷¼¼ReadVariableOpH º”ÕßPØĞ!Z¡
+	long_name“ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõŒ÷¼¼ExecutorState::ProcessH€˜†ÚßP€è„Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"æõŒ÷¼¼ReadVariableOpH •»ÚßPà¸6Z 
+	long_name’ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõŒ÷¼¼ExecutorState::ProcessH¸¨¯ÛßP ¿œZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"èõŒ÷¼¼ReadVariableOpH¨Ü×ÛßPÀÈPZ¢
+	long_name”ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõŒ÷¼¼ExecutorState::ProcessHèíãÜßPÈ£ŠZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"èõŒ÷¼¼ReadVariableOpH¸ÏœİßPÀÉ&Z
+is_eager0Z¢
+	long_name”ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0"iõíæü²ExecutorState::ProcessHØ”ğÎŞPÀ¦ç‡Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"’õíæü²ReadVariableOpH »üÑŞPàÅ…~ZË
+	long_name½ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõíæü²ExecutorState::ProcessHàı¶×ßP°åÓZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"‘õíæü²ReadVariableOpHÈĞ›ØßP¨ÍQZ
+is_eager0ZË
+	long_name½ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0"hõíæü²ExecutorState::ProcessHØî¨ÙßPĞÄ•Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"õíæü²ReadVariableOpHˆ®âÙßPØ‚;ZÊ
+	long_name¼ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõíæü²ExecutorState::ProcessHˆ´İÚßPÏÀ0Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"šõíæü²PackHÀşÉÛßP˜ÆÔZ^
+	long_nameQignnition_model/states_creation/transmitter_receiver_pair/build_state1/stack:PackZ
+group_id0Z
+is_eager0"šõíæü²FillHøÆ†ˆàPøÈ¨Z^
+	long_nameQignnition_model/states_creation/transmitter_receiver_pair/build_state1/zeros:FillZ
+group_id0Z
+is_eager0"iõ´ØÒ ExecutorState::ProcessHÒ“ÍŞPÈ›Â‹Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"’õ´ØÒ ReadVariableOpHà´™ĞŞP˜šÈ}ZË
+	long_name½ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ´ØÒ ExecutorState::ProcessHˆ›•ÙßPˆó·Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"õ´ØÒ ReadVariableOpHĞŠæÙßPØÿ;Z
+is_eager0ZÊ
+	long_name¼ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"iõ´ØÒ ExecutorState::ProcessH€¿öÚßP˜´ïæZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"¢õ´ØÒ ConcatV2Hà¦ÇÛßPÀÌİ‘Za
+	long_nameTignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/concat:ConcatV2Z
+group_id0Z
+is_eager0"Õõ´ØÒ MulH¸ØÎïáP¨“ÅZ˜
+	long_nameŠignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/mul_1:MulZ
+group_id0Z
+is_eager0"Øõ´ØÒ AddV2HĞ»Ê·çPˆõİZš
+	long_nameŒignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/add_1:AddV2Z
+group_id0Z
+is_eager0"£õ´ØÒ ConcatV2H ıÚºçP€÷üZc
+	long_nameVignnition_model/states_creation/transmitter_receiver_pair/build_state1/concat:ConcatV2Z
+group_id0Z
+is_eager0"iõ´ØÒ ExecutorState::ProcessHÈŞºÂçPà·±·bZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"Âõ´ØÒ GatherV2HĞ‰ÃçP¨‹¦æZ
+is_eager0Z€
+	long_nameòignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2_1:GatherV2Z
+group_id0"Êõ´ØÒ ConcatV2H í¤¬éPØ‚¯Z
+is_eager0Z‰
+	long_nameûignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/concat_1:ConcatV2Z
+group_id0"ıõ´ØÒ _FusedMatMulH€óÙ²éPˆ¦ “\Z
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"üõ´ØÒ _FusedMatMulHˆ¥ŞÍÅPà¯’Z·
+	long_name©ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"üõ´ØÒ _FusedMatMulH˜éáÛÅPœØZ·
+	long_name©ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"üõ´ØÒ _FusedMatMulHøõíàÅPØ «Z
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"ãõ´ØÒ UnsortedSegmentMaxHÀ‚ÙãÅP¨ÔûZ—
+	long_name‰ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/aggregation/max/UnsortedSegmentMax:UnsortedSegmentMaxZ
+group_id0Z
+is_eager0"ªõ´ØÒ ConcatV2Hğ¥¡äÉP°ßÏZé
+	long_nameÛignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/concat:ConcatV2Z
+group_id0Z
+is_eager0"Òõ´ØÒ _FusedMatMulHÈÿ³èÉPÀªZ
+	long_nameÿignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"Òõ´ØÒ _FusedMatMulH¸‹„îÉP€¢Z
+	long_nameÿignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"Õõ´ØÒ _FusedMatMulH¨»ÔïÉP ìZ
+is_eager0Z
+	long_name‚ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd:_FusedMatMulZ
+group_id0"Ëõ´ØÒ SigmoidH€ÄŠñÉPØ«ÑZ‹
+	long_nameıignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/Sigmoid:SigmoidZ
+group_id0Z
+is_eager0"hõ´ØÒ ExecutorState::ProcessHà”›ûÉP™ÜZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"Áõ´ØÒ GatherV2HĞ¢£üÉPØØÂZ€
+	long_nameòignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2_1:GatherV2Z
+group_id0Z
+is_eager0"hõ´ØÒ ExecutorState::ProcessH ß‹ÿÉP°¡õZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"¾õ´ØÒ GatherV2HØ§ÏÿÉPĞ·FZş
+	long_nameğignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2:GatherV2Z
+group_id0Z
+is_eager0"Êõ´ØÒ ConcatV2HˆÑ¹€ÊPÀ¯‚Z
+is_eager0Z‰
+	long_nameûignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/concat_1:ConcatV2Z
+group_id0"üõ´ØÒ _FusedMatMulH˜„½‚ÊP ÕèZ
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"üõ´ØÒ _FusedMatMulHÈ…Û„ÊP ÷³Z
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"üõ´ØÒ _FusedMatMulHÀµ¸†ÊP¸•ÂZ·
+	long_name©ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"üõ´ØÒ _FusedMatMulH˜¶µÊP¨ÄÑZ·
+	long_name©ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"âõ´ØÒ UnsortedSegmentMaxHñ¸ÊPÈá¨Z
+is_eager0Z—
+	long_name‰ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/aggregation/max/UnsortedSegmentMax:UnsortedSegmentMaxZ
+group_id0"ªõ´ØÒ ConcatV2HÀ…§‘ÊP°¿9Z
+is_eager0Zê
+	long_nameÜignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/concat:ConcatV2Z
+group_id0"Óõ´ØÒ _FusedMatMulHÚ’ÊP °¡Z
+	long_name€ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"Òõ´ØÒ _FusedMatMulH¸³Ø“ÊPÀâqZ
+	long_name€ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"Õõ´ØÒ _FusedMatMulH¨‚õ”ÊPàŞSZ‘
+	long_nameƒignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd:_FusedMatMulZ
+group_id0Z
+is_eager0"Ëõ´ØÒ SigmoidHè´ö•ÊP¸¥%ZŒ
+	long_nameşignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/Sigmoid:SigmoidZ
+group_id0Z
+is_eager0"hõ´ØÒ ExecutorState::ProcessHÈ‹š™ÊP˜Ó²Z
+group_id0Z
+id-4063142782474738195Z
+iter_num0"Àõ´ØÒ GatherV2HˆŸÒ™ÊPˆİkZ€
+	long_nameòignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2_1:GatherV2Z
+group_id0Z
+is_eager0"iõØ™ŒıExecutorState::ProcessHˆµ¶ÜŞP€Å¡”Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"‘õØ™ŒıReadVariableOpH¸¹ßŞP°¨¬vZ
+is_eager0ZÊ
+	long_name¼ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"iõÁş°ôExecutorState::ProcessH¨¤ğÎŞP°Šú‰Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"’õÁş°ôReadVariableOpHêüÑŞP ƒ~ZË
+	long_name½ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"gõÁş°ôExecutorState::ProcessH £ãÙßP˜ò~Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"õÁş°ôReadVariableOpH€ÓœÚßP¸“+Z
+is_eager0ZÊ
+	long_name¼ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"gõÁş°ôExecutorState::ProcessHàØàÛßPÀÄ{Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"õÁş°ôReadVariableOpH¨½‹ÜßPĞ)ZÊ
+	long_name¼ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÁş°ôExecutorState::ProcessHìûÜßPøŸZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"çõÁş°ôReadVariableOpHĞ¯¤İßP€‹&Z
+is_eager0Z¡
+	long_name“ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"gõÁş°ôExecutorState::ProcessH¨Ô§ŞßPø eZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"èõÁş°ôReadVariableOpHÀİËŞßP€ˆ'Z¢
+	long_name”ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÁş°ôExecutorState::ProcessHˆ¬ßßPğ—ã'Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"çõÁş°ôReadVariableOpHĞ×ßßPøÔ*Z
+is_eager0Z¡
+	long_name“ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"iõÁş°ôExecutorState::ProcessHØìÃçP˜æÁæZ
+group_id0Z
+id-4063142782474738195Z
+iter_num0"ÀõÁş°ôGatherV2HÔƒÅçP˜£ŠäZş
+	long_nameğignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2:GatherV2Z
+group_id0Z
+is_eager0"hõÜ•±”ExecutorState::ProcessH¸¢±ŞŞP˜¹zZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"õõÜ•±”ReadVariableOpHÈ´ÂßŞPÀ…¨vZ®
+	long_name ignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/ReadVariableOp_1:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÜ•±”ExecutorState::ProcessHˆ™éÙßPˆùÂPZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"òõÜ•±”ReadVariableOpHØ²¹ÚßP¨¦^Z¬
+	long_nameignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"ÖõÜ•±”AddV2H°ĞèÛßP¸ÓİZ
+is_eager0Z˜
+	long_nameŠignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/add:AddV2Z
+group_id0"ØõÜ•±”RsqrtH˜èÿ—àP€‘÷Zš
+	long_nameŒignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/Rsqrt:RsqrtZ
+group_id0Z
+is_eager0"ÑõÜ•±”MulH¸ûÓ§àP€ÔaZ–
+	long_nameˆignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/mul:MulZ
+group_id0Z
+is_eager0"ÓõÜ•±”MulHÈÏÏ¨àPøkZ˜
+	long_nameŠignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/mul_2:MulZ
+group_id0Z
+is_eager0"ÑõÜ•±”SubH €Ï©àPøîKZ–
+	long_nameˆignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/sub:SubZ
+group_id0Z
+is_eager0"hõÜ•±”ExecutorState::ProcessHß ™ÊP¸ ‚(Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"¿õÜ•±”GatherV2HÈ×ÑšÊP˜­‰Zş
+	long_nameğignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/GatherV2:GatherV2Z
+group_id0Z
+is_eager0"ÊõÜ•±”ConcatV2HÀï ÊP »ÇZ‰
+	long_nameûignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/concat_1:ConcatV2Z
+group_id0Z
+is_eager0"üõÜ•±”_FusedMatMulHøüÎ£ÊPø¹§Z·
+	long_name©ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"üõÜ•±”_FusedMatMulH€Ç¨ÊPÀÖìZ·
+	long_name©ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"üõÜ•±”_FusedMatMulHøòà¬ÊPøÛïZ
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"üõÜ•±”_FusedMatMulHàÛ…²ÊPÈñöZ
+is_eager0Z·
+	long_name©ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/Relu:_FusedMatMulZ
+group_id0"âõÜ•±”UnsortedSegmentMaxH Š¯´ÊPàıœZ
+is_eager0Z—
+	long_name‰ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/aggregation/max/UnsortedSegmentMax:UnsortedSegmentMaxZ
+group_id0"ªõÜ•±”ConcatV2H˜×¬¶ÊPÀ‡<Zê
+	long_nameÜignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/concat:ConcatV2Z
+group_id0Z
+is_eager0"ÓõÜ•±”_FusedMatMulH„·ÊP€ĞŒZ
+	long_name€ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_0_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"ÒõÜ•±”_FusedMatMulHØ¯È¸ÊPğÏrZ
+	long_name€ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/Relu:_FusedMatMulZ
+group_id0Z
+is_eager0"ÕõÜ•±”_FusedMatMulH˜ÿé¹ÊPèÌfZ‘
+	long_nameƒignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd:_FusedMatMulZ
+group_id0Z
+is_eager0"ËõÜ•±”SigmoidH¨áŠ»ÊP˜‹MZŒ
+	long_nameşignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/Sigmoid:SigmoidZ
+group_id0Z
+is_eager0"†õÜ•±”ConcatV2Hàâ¸¼ÊP¨˜9ZG
+	long_name:ignnition_model/readout_predictions/concat/concat:ConcatV2Z
+group_id0Z
+is_eager0"WõÜ•±”ExecutorDoneCallbackHøÙÓÁÊP ¬·Z
+group_id0Z
+id-4063142782474738195"iõ›âûÌExecutorState::ProcessH ­¶ÜŞPğ¿ß“Z
+group_id0Z
+id-4063142782474738195Z
+iter_num0"‘õ›âûÌReadVariableOpHàÄºßŞPø¦tZÊ
+	long_name¼ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"Xõ´¹‘ExecutorState::ProcessH˜§ôŞ¤PˆÉıZ
+id-8172812671807320564Z
+iter_num0"fõ´¹‘GeneratorDatasetH ëÿå¤Pø®Z.
+	long_name!GeneratorDataset:GeneratorDatasetZ
+is_eager0"Gõ´¹‘ExecutorDoneCallbackH¸¸ø¤PğÀôZ
+id-8172812671807320564"Yõ´¹‘ExecutorState::ProcessH¨Í‚‡¸P¸ûüÎ?Z
+iter_num0Z
+id-2907171587982223971"Iõ´¹‘PyFuncHğ´¦‰¸PˆÀ¹Ã?Z
+is_eager0Z
+	long_namePyFunc:PyFunc"Gõ´¹‘ExecutorDoneCallbackH˜úšØ÷P€ÈßZ
+id-2907171587982223971"iõ´¹‘ExecutorState::ProcessHõç»ŞP ö¡’Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"“õ´¹‘ReadVariableOpHÀÉ—½ŞP ÌZË
+	long_name½ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ´¹‘ExecutorState::ProcessHØ¸ÛÎßPğ¬ÎZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"‘õ´¹‘ReadVariableOpH ÈËÏßPÀ¹UZË
+	long_name½ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ´¹‘ExecutorState::ProcessHØµÓÑßP¨Š‘Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"‘õ´¹‘ReadVariableOpH¸©ÒßP¸´ ZË
+	long_name½ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ´¹‘ExecutorState::ProcessHàÆÓßPÈ‹˜Z
+group_id0Z
+id-4063142782474738195Z
+iter_num0"õõ´¹‘ReadVariableOpHğëâÓßPĞ©Z
+is_eager0Z®
+	long_name ignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/ReadVariableOp_2:ReadVariableOpZ
+group_id0"hõ´¹‘ExecutorState::ProcessHğÚ¸ÕßP¿‚Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"‘õ´¹‘ReadVariableOpHøåëÕßPàÁ3ZË
+	long_name½ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ´¹‘ExecutorState::ProcessHÀŠÕÖßP˜æ‚Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"‘õ´¹‘ReadVariableOpH¨±×ßPâ#ZË
+	long_name½ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"gõ´¹‘ExecutorState::ProcessHèŞ÷×ßPğ«~Z
+group_id0Z
+id-4063142782474738195Z
+iter_num0"õ´¹‘ReadVariableOpHĞ¯³ØßP˜ı'Z
+is_eager0ZÊ
+	long_name¼ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"hõ´¹‘ExecutorState::ProcessHÈŞ´ÜßP¸ÍÖZ
+group_id0Z
+id-4063142782474738195Z
+iter_num0"õ´¹‘ReadVariableOpHØ§ŠİßP¨­2Z
+is_eager0ZÊ
+	long_name¼ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0"iõÍªExecutorState::ProcessHøîŒÍŞPø›û’Z
+group_id0Z
+id-4063142782474738195Z
+iter_num0"’õÍªReadVariableOpHÀ÷¥ÏŞPèäÛ~Z
+is_eager0ZË
+	long_name½ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0"hõÍªExecutorState::ProcessHğŠ…áßPˆÙZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"çõÍªReadVariableOpHˆ„ØáßP¸ú\Z¡
+	long_name“ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"iõ§ğâğExecutorState::ProcessH —µÃŞPà·’—Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"“õ§ğâğReadVariableOpHš‘ÆŞPèæé‡ZË
+	long_name½ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ§ğâğExecutorState::ProcessHÀ‡ÇÛßPÀÔÉZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"öõ§ğâğReadVariableOpHØ¶ˆÜßPĞ¹oZ
+is_eager0Z°
+	long_name¢ignnition_model/states_creation/transmitter_receiver_pair/apply_nn_0/sequential/layer_0_BatchNormalization_hs_creation/batchnorm/mul/ReadVariableOp:ReadVariableOpZ
+group_id0"gõ§ğâğExecutorState::ProcessHÈÏ¶İßP¸‘Z
+id-4063142782474738195Z
+iter_num0Z
+group_id0"çõ§ğâğReadVariableOpHà½ãİßPÀ«0Z¡
+	long_name“ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõ§ğâğExecutorState::ProcessHÈİØŞßP€³ËZ
+id-4063142782474738195Z
+iter_num0Z
+group_id0"èõ§ğâğReadVariableOpH°×°ßßPĞ $Z¢
+	long_name”ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/BiasAdd/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessHğ¾ÜİŞPàİŒyZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"‘õÏİReadVariableOpHÃâŞŞP°´±sZÊ
+	long_name¼ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_2_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessH˜¶¬×ßPØçÀZ
+iter_num0Z
+group_id0Z
+id-4063142782474738195"õÏİReadVariableOpH°Äø×ßP¨èHZÊ
+	long_name¼ignnition_model/message_passing/iteration_0/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_0_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessHøä‰ÚßPèÑZ
+group_id0Z
+id-4063142782474738195Z
+iter_num0"õÏİReadVariableOpHğ’ÁÚßPÀ–7ZÊ
+	long_name¼ignnition_model/message_passing/iteration_2/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_3_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"gõÏİExecutorState::ProcessHèÖÄÛßPÈúvZ
+group_id0Z
+id-4063142782474738195Z
+iter_num0"õÏİReadVariableOpHà±íÛßP°¿9ZÊ
+	long_name¼ignnition_model/message_passing/iteration_1/stage_0/MP_to_transmitter_receiver_pair/message_phase/transmitter_receiver_pair_to_transmitter_receiver_pair/create_message_transmitter_receiver_pair_to_transmitter_receiver_pair/apply_nn_0/sequential_1/layer_1_Dense_message_creation_0/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessH¸¶ÑÜßP°šìZ
+group_id0Z
+id-4063142782474738195Z
+iter_num0"çõÏİReadVariableOpHàæ‚İßP ú5Z¡
+	long_name“ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/then/_32/ignnition_model/message_passing/iteration_1/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_2_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessH˜ÆåŞßPÈ±¸Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"æõÏİReadVariableOpHˆ‘°ßßPĞ™PZ 
+	long_name’ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/then/_7/ignnition_model/message_passing/iteration_0/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0"hõÏİExecutorState::ProcessHøëÈàßPØš°Z
+iter_num0Z
+group_id0Z
+id-4063142782474738195"çõÏİReadVariableOpHèğÓáßPÀùZ¡
+	long_name“ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/then/_57/ignnition_model/message_passing/iteration_2/stage_0/updates/update_transmitter_receiver_pair/cond/sequential_2/layer_1_Dense_update/MatMul/ReadVariableOp:ReadVariableOpZ
+group_id0Z
+is_eager0
