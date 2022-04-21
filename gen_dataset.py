@@ -3,9 +3,9 @@ import os
 import numpy as np
 import networkx as nx
 import json
-import matplotlib.pyplot as plt
 from networkx.readwrite import json_graph
 import tarfile
+import shutil
 
 
 def data_generate(data_name, link_num, graph_num, train_flag):
@@ -44,8 +44,8 @@ def data_generate(data_name, link_num, graph_num, train_flag):
     channel = data["Channel"]
     graph_label = data["Label"]
     distance = data["Distance"]
-    dquan = data["Distance_quan"]
-    np.savetxt(data_path, graph_label, fmt='%d')
+    # dquan = data["Distance_quan"]
+    np.savetxt(data_path, graph_label, fmt="%d")
 
     # 1: CSI
     for i in range(graph_num):
@@ -71,7 +71,6 @@ def data_generate(data_name, link_num, graph_num, train_flag):
         if os.path.exists(data_path):
             os.remove(data_path)
         np.savetxt(data_path, sub)
-    ##################################################################################
 
 
 def make_graph(g, node_tags, label, dist, labels_total):
@@ -95,7 +94,7 @@ def make_graph(g, node_tags, label, dist, labels_total):
                 # "weights": weights[link_idx],
                 # "wmmse_power": wmmse_power[link_idx],
                 "d2d_distance": dist[idx, idx],
-                "label": labels_total[idx, label]
+                "label": labels_total[idx, label],
             },
         )
         for idx in range(len(node_tags))
@@ -108,13 +107,10 @@ def make_graph(g, node_tags, label, dist, labels_total):
     edge_pairs[:, 1] = y
 
     g.add_edges_from(
-        [
-            (src, dst, {"interfering_d2d_distance": dist[src, dst]})
-            for src, dst in edge_pairs
-        ],
+        [(src, dst, {"interfering_d2d_distance": dist[src, dst]}) for src, dst in edge_pairs],
     )
 
-    #? CODE FOR GRAPH VISUALIZATION
+    # ? CODE FOR GRAPH VISUALIZATION
     # pos = nx.spring_layout(g)
     # edge_labels = dict(
     #     [
@@ -128,7 +124,7 @@ def make_graph(g, node_tags, label, dist, labels_total):
     #         for u, v, d in g.edges(data=True)
     #     ]
     # )
-    # nx.draw(g, pos, with_labels=True, 
+    # nx.draw(g, pos, with_labels=True,
     # node_color=[
     #         "#a3be8c" if data["label"] == 1 else "#bf616a"
     #         for _, data in g.nodes(data=True)
@@ -143,7 +139,7 @@ def make_graph(g, node_tags, label, dist, labels_total):
     return g
 
 
-#? legacy code
+# ? legacy code
 # class S2VGraph(object):
 #     def __init__(self, g, node_tags, label):
 #         self.num_nodes = len(node_tags)
@@ -181,10 +177,7 @@ def save_dataset(graphs, flag, compress=False):
 def load_data(dname, flag):
 
     dirs = "./data/%s/%s/%s.txt" % (flag, dname, dname)
-
-    labels_total = np.loadtxt(
-            "./data/%s/%s/label.txt" % (flag, dname)
-        )
+    labels_total = np.loadtxt("./data/%s/%s/label.txt" % (flag, dname))
 
     g_list = []
     label_dict = {}
@@ -196,10 +189,8 @@ def load_data(dname, flag):
         # for each graph
         for i in range(n_g):
             row = f.readline().strip().split()
-            n, l = [
-                int(w) for w in row
-            ]  # `n` is number of nodes in the current graph, and `l` is the graph label
-            if not l in label_dict:
+            n, l = [int(w) for w in row]  # `n` is number of nodes in the current graph, and `l` is the graph label
+            if l not in label_dict:
                 mapped = len(label_dict)
                 label_dict[l] = mapped
             g = nx.DiGraph()
@@ -219,29 +210,26 @@ def load_data(dname, flag):
                 node_tags.append(node_dict[row[0]])
                 n_edges += row[1]  # row[1]==m
                 for k in range(2, len(row)):
-                    g.add_edge(
-                        j, int(row[k])
-                    )  # following `m` numbers indicate the neighbor indices (starting from 0).
+                    g.add_edge(j, int(row[k]))  # following `m` numbers indicate the neighbor indices (starting from 0).
             # assert len(g.edges()) * 2 == n_edges
             assert len(g) == n
-            degrees = [val for (node, val) in g.degree()]
-            # print(degrees)
             g_new = make_graph(g, node_tags, l, dist, labels_total)
             g_list.append(g_new)
 
     for g in g_list:
         g.graph["label"] = label_dict[g.graph["label"]]
 
+    shutil.rmtree(f"./data/{flag}/{dname}")
     return g_list
 
 
 dname = "test"
+
 data_generate(data_name=dname, link_num=10, graph_num=500, train_flag="train")
 data_generate(data_name=dname, link_num=10, graph_num=200, train_flag="val")
 
 train_graphs = load_data(dname, flag="train")
 val_graphs = load_data(dname, flag="val")
 
-
-save_dataset(train_graphs,'train')
-save_dataset(val_graphs,'val')
+save_dataset(train_graphs, "train")
+save_dataset(val_graphs, "val")
