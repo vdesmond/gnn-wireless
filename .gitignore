@@ -4,3 +4,6 @@ rra_*
 validation_10/
 raw_10/
 train_10/
+*.txt
+CheckPoint/
+computational_graphs/

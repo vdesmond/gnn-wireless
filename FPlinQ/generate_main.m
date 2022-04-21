@@ -2,8 +2,8 @@ clc
 clear
 clear all
 
-data_size_set = [500,1000];%number of network layouts
-link_num_set = [10]; %number of D2D pairs
+data_size_set = [500,200];%number of network layouts
+link_num_set = [20]; %number of D2D pairs
 for i = 1:length(link_num_set)
     num = link_num_set(i);%single-antenna transceivers pairs
     for j = 1:length(data_size_set)

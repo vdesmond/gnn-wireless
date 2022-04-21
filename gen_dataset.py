@@ -111,9 +111,10 @@ def make_graph(g, node_tags, label, dist, labels_total):
         [
             (src, dst, {"interfering_d2d_distance": dist[src, dst]})
             for src, dst in edge_pairs
-        ], 
+        ],
     )
 
+    #? CODE FOR GRAPH VISUALIZATION
     # pos = nx.spring_layout(g)
     # edge_labels = dict(
     #     [
@@ -136,14 +137,13 @@ def make_graph(g, node_tags, label, dist, labels_total):
     # # node_labels = nx.get_node_attributes(g,'d2d_distance')
     # # node_labels = {u : round(v) for u,v in node_labels.items()}
     # # nx.draw_networkx_labels(g, pos, labels = node_labels, font_size=6)
-
     # nx.draw_networkx_edge_labels(g, pos, edge_labels=edge_labels, font_size=6)
     # plt.show()
 
     return g
 
 
-## legacy
+#? legacy code
 # class S2VGraph(object):
 #     def __init__(self, g, node_tags, label):
 #         self.num_nodes = len(node_tags)
@@ -202,7 +202,7 @@ def load_data(dname, flag):
             if not l in label_dict:
                 mapped = len(label_dict)
                 label_dict[l] = mapped
-            g = nx.Graph()
+            g = nx.DiGraph()
             node_tags = []
             n_edges = 0
             # for each node
@@ -237,7 +237,7 @@ def load_data(dname, flag):
 
 dname = "test"
 data_generate(data_name=dname, link_num=10, graph_num=500, train_flag="train")
-data_generate(data_name=dname, link_num=10, graph_num=500, train_flag="val")
+data_generate(data_name=dname, link_num=10, graph_num=200, train_flag="val")
 
 train_graphs = load_data(dname, flag="train")
 val_graphs = load_data(dname, flag="val")

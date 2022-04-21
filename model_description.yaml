@@ -2,14 +2,13 @@ entities:
   - name: transmitter_receiver_pair
     state_dimension: hidden_state_dimension
     initial_state:
-      - type: neural_network
-        nn_name: initial_state_network
-        input:
-          - $d2d_distance
-          - $interfering_d2d_distance
-        output_name: normalized_state
+      # - type: neural_network
+      #   nn_name: initial_state_network
+      #   input:
+      #     - $d2d_distance
+      #   output_name: normalized_state
       - type: build_state
-        input: [$normalized_state]
+        input: [$d2d_distance]
 
 message_passing:
   num_iterations: 3
@@ -42,13 +41,7 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 5
-      - type_layer: nn_layer
-        activation: nn_activation
-        units: 32
-      - type_layer: nn_layer
-        activation: nn_activation
-        units: 32
+        units: 20
       - type_layer: nn_layer
         activation: nn_activation
         units: hidden_state_dimension
@@ -57,10 +50,7 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 35
-      - type_layer: nn_layer
-        activation: nn_activation
-        units: 16
+        units: 30
       - type_layer: nn_layer
         activation: sigmoid
         units: hidden_state_dimension
@@ -69,17 +59,11 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 35
-      - type_layer: nn_layer
-        activation: nn_activation
-        units: 16
+        units: 40
       - type_layer: nn_layer
         activation: sigmoid
         units: hidden_state_dimension
 
   - nn_name: initial_state_network
     nn_architecture:
-      - type_layer: BatchNormalization
-        axis: -1
-        center: true
-        scale: true
+      - type_layer: Average
