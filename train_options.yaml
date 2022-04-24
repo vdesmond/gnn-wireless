@@ -1,9 +1,9 @@
 # PATHS
 additional_functions_file: ./additional_functions.py
 train_dataset: ./data/train
-validation_dataset: ./data/val
-# predict_dataset: ./data/validation_10
-# load_model_path: ./CheckPoint/experiment_2021_12_08_17_58_26/ckpt/weights.10--8.535
+validation_dataset: ./data/test
+#predict_dataset: ./data/test
+#load_model_path: ./CheckPoint/15_22/ckpt/weights.50-0.175
 output_path: ./
 
 # OPTIMIZATION OPTIONS
@@ -14,10 +14,10 @@ optimizer:
 metrics: [BinaryAccuracy, Precision, Recall]
 
 # TRAINING OPTIONS
-batch_size: 1
+batch_size: 16
 epochs: 50
 epoch_size: 1000
-shuffle_training_set: False
+shuffle_training_set: True
 shuffle_validation_set: True
 val_samples: 100
 val_frequency: 1

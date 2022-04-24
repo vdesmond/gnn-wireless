@@ -1,3 +1,4 @@
+import argparse
 import scipy.io as sio
 import os
 import numpy as np
@@ -8,13 +9,13 @@ import tarfile
 import shutil
 
 
-def data_generate(data_name, link_num, graph_num, train_flag):
-    dirs = "./data/%s/%s" % (train_flag, data_name)
+def data_generate(data_name, link_num, graph_num, flag):
+    dirs = "./data/%s/%s" % (flag, data_name)
     if not os.path.exists(dirs):
         os.makedirs(dirs)
 
     # generate data/data.txt
-    data_path = "./data/%s/%s/%s.txt" % (train_flag, data_name, data_name)
+    data_path = "./data/%s/%s/%s.txt" % (flag, data_name, data_name)
     if os.path.exists(data_path):
         os.remove(data_path)
     data_file = open(data_path, mode="a+")
@@ -36,10 +37,10 @@ def data_generate(data_name, link_num, graph_num, train_flag):
     data_file.close()
 
     # generate data/graph_label.txt
-    data_path = "./data/%s/%s/label.txt" % (train_flag, data_name)
+    data_path = "./data/%s/%s/label.txt" % (flag, data_name)
     if os.path.exists(data_path):
         os.remove(data_path)
-    matfn = "./FPlinQ/mat/dataset_%d_%d.mat" % (graph_num, link_num)
+    matfn = "./mat/dataset_%d_%d.mat" % (graph_num, link_num)
     data = sio.loadmat(matfn)
     channel = data["Channel"]
     graph_label = data["Label"]
@@ -50,7 +51,7 @@ def data_generate(data_name, link_num, graph_num, train_flag):
     # 1: CSI
     for i in range(graph_num):
         sub = np.transpose(channel[:, i].reshape(link_num, link_num))
-        data_path = "./data/%s/%s/channel_%d.txt" % (train_flag, data_name, i)
+        data_path = "./data/%s/%s/channel_%d.txt" % (flag, data_name, i)
         if os.path.exists(data_path):
             os.remove(data_path)
         np.savetxt(data_path, sub)
@@ -59,7 +60,7 @@ def data_generate(data_name, link_num, graph_num, train_flag):
     # # 2: distance quantization
     # for i in range(graph_num):
     #     sub = np.transpose(dquan[:, i].reshape(link_num, link_num))
-    #     data_path = "./data/%s/%s/distance_%d.txt" % (train_flag, data_name, i)
+    #     data_path = "./data/%s/%s/distance_%d.txt" % (flag, data_name, i)
     #     if os.path.exists(data_path):
     #         os.remove(data_path)
     #     np.savetxt(data_path, sub)
@@ -67,7 +68,7 @@ def data_generate(data_name, link_num, graph_num, train_flag):
     # 3: Distance
     for i in range(graph_num):
         sub = np.transpose(distance[:, i].reshape(link_num, link_num))
-        data_path = "./data/%s/%s/distance_%d.txt" % (train_flag, data_name, i)
+        data_path = "./data/%s/%s/distance_%d.txt" % (flag, data_name, i)
         if os.path.exists(data_path):
             os.remove(data_path)
         np.savetxt(data_path, sub)
@@ -223,13 +224,48 @@ def load_data(dname, flag):
     return g_list
 
 
-dname = "test"
+def matlab_generate(train_num, val_num, test_num, d2d):
+    import matlab.engine
 
-data_generate(data_name=dname, link_num=10, graph_num=500, train_flag="train")
-data_generate(data_name=dname, link_num=10, graph_num=200, train_flag="val")
+    eng = matlab.engine.start_matlab()
+    eng.addpath("./FPlinQ/")
+    eng.pygenerate(train_num, val_num, test_num, d2d, nargout=0)
 
-train_graphs = load_data(dname, flag="train")
-val_graphs = load_data(dname, flag="val")
 
-save_dataset(train_graphs, "train")
-save_dataset(val_graphs, "val")
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-t", "--train", help="Train dataset size", type=int, default=1000)
+    parser.add_argument("-v", "--val", help="Validation dataset size", type=int, default=500)
+    parser.add_argument("-s", "--test", help="Test dataset size", type=int, default=200)
+    parser.add_argument("-d", "--d2d", help="Number of D2D pairs", type=int, default=10)
+
+    dname = "dataset"
+
+    args = parser.parse_args()
+    train_num = args.train
+    val_num = args.val
+    test_num = args.test
+    d2d = args.d2d
+
+    # ? Code to generate mat files if not found
+    if not os.path.exists("./mat"):
+        print("mat folder not found. Creating")
+        os.makedirs("./mat")
+        print("generating mat files")
+        matlab_generate(train_num, val_num, test_num, d2d)
+    if not os.path.exists(f"./mat/dataset_{train_num}_{d2d}.mat"):
+        print("generating mat files")
+        matlab_generate(train_num, val_num, test_num, d2d)
+
+    data_generate(data_name=dname, link_num=d2d, graph_num=train_num, flag="train")
+    data_generate(data_name=dname, link_num=d2d, graph_num=val_num, flag="val")
+    data_generate(data_name=dname, link_num=d2d, graph_num=test_num, flag="test")
+
+    train_graphs = load_data(dname, flag="train")
+    val_graphs = load_data(dname, flag="val")
+    test_graphs = load_data(dname, flag="test")
+
+    save_dataset(train_graphs, "train")
+    save_dataset(val_graphs, "val")
+    save_dataset(test_graphs, "test")
