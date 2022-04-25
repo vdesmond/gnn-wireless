@@ -13,8 +13,6 @@ def data_generate(data_name, link_num, graph_num, flag):
     dirs = "./data/%s/%s" % (flag, data_name)
     if not os.path.exists(dirs):
         os.makedirs(dirs)
-
-    # generate data/data.txt
     data_path = "./data/%s/%s/%s.txt" % (flag, data_name, data_name)
     if os.path.exists(data_path):
         os.remove(data_path)
@@ -74,10 +72,10 @@ def data_generate(data_name, link_num, graph_num, flag):
         np.savetxt(data_path, sub)
 
 
-def make_graph(g, node_tags, label, dist, labels_total):
+def make_graph(g, node_tags, graph_id, dist, channel, labels_total):
 
     g.graph["num_nodes"] = len(node_tags)
-    g.graph["label"] = label
+    g.graph["graph_id"] = graph_id
 
     g.add_nodes_from(
         (
@@ -95,7 +93,8 @@ def make_graph(g, node_tags, label, dist, labels_total):
                 # "weights": weights[link_idx],
                 # "wmmse_power": wmmse_power[link_idx],
                 "d2d_distance": dist[idx, idx],
-                "label": labels_total[idx, label],
+                "d2d_channel": channel[idx, idx],
+                "label": labels_total[idx, graph_id],
             },
         )
         for idx in range(len(node_tags))
@@ -108,7 +107,10 @@ def make_graph(g, node_tags, label, dist, labels_total):
     edge_pairs[:, 1] = y
 
     g.add_edges_from(
-        [(src, dst, {"interfering_d2d_distance": dist[src, dst]}) for src, dst in edge_pairs],
+        [
+            (src, dst, {"interfering_d2d_distance": dist[src, dst], "channel": channel[src, dst]})
+            for src, dst in edge_pairs
+        ],
     )
 
     # ? CODE FOR GRAPH VISUALIZATION
@@ -138,25 +140,6 @@ def make_graph(g, node_tags, label, dist, labels_total):
     # plt.show()
 
     return g
-
-
-# ? legacy code
-# class S2VGraph(object):
-#     def __init__(self, g, node_tags, label):
-#         self.num_nodes = len(node_tags)
-#         self.node_tags = node_tags
-#         print(node_tags)
-#          # the set of node labels
-#         self.label = label  # graph label
-
-#         x, y = zip(*g.edges())
-#         self.num_edges = len(x)
-#         self.edge_pairs = np.ndarray(
-#             shape=(self.num_edges, 2), dtype=np.int32
-#         )  # edge_pair:(node1,node2)
-#         self.edge_pairs[:, 0] = x
-#         self.edge_pairs[:, 1] = y
-#         self.edge_pairs = self.edge_pairs.flatten()
 
 
 def save_dataset(graphs, flag, compress=False):
@@ -199,6 +182,7 @@ def load_data(dname, flag):
             n_edges = 0
             # for each node
             dist = np.loadtxt("./data/%s/%s/distance_%d.txt" % (flag, dname, i))
+            channel = np.loadtxt("./data/%s/%s/channel_%d.txt" % (flag, dname, i))
             for j in range(n):
                 g.add_node(j)
                 row = f.readline().strip().split()
@@ -214,11 +198,11 @@ def load_data(dname, flag):
                     g.add_edge(j, int(row[k]))  # following `m` numbers indicate the neighbor indices (starting from 0).
             # assert len(g.edges()) * 2 == n_edges
             assert len(g) == n
-            g_new = make_graph(g, node_tags, l, dist, labels_total)
+            g_new = make_graph(g, node_tags, l, dist, channel, labels_total)
             g_list.append(g_new)
 
     for g in g_list:
-        g.graph["label"] = label_dict[g.graph["label"]]
+        g.graph["graph_id"] = label_dict[g.graph["graph_id"]]
 
     shutil.rmtree(f"./data/{flag}/{dname}")
     return g_list

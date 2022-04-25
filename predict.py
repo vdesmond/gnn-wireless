@@ -22,18 +22,15 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 import ignnition
 import numpy as np
-import tensorflow as tf
 
 
 def main():
     model = ignnition.create_model(model_dir="./")
     model.computational_graph()
 
-    val_dataset = model.CONFIG["predict_dataset"]
-    n_links = val_dataset.split("_")[1]
-
-    all_predictions = np.array(model.evaluate())
-    np.save("./data/nlinks_" + str(n_links), all_predictions)
+    all_predictions = np.array(model.predict())
+    casted = np.where(all_predictions > 0.5, 1, 0)
+    print(casted)
 
 
 if __name__ == "__main__":
