@@ -1,4 +1,4 @@
-function [X,Y,Distance,Distance_quan] = generate(num,data_size)
+function [X,Y,Distance,Distance_quan, Layout_coords] = generate(num,data_size)
 iteration = zeros(data_size,1);
 X=zeros(num^2,data_size);
 Y=zeros(num,data_size);
@@ -7,13 +7,13 @@ R_layout=zeros(num,2*data_size);
 pair_d=zeros(num,data_size);
 Distance=zeros(num^2,data_size);
 Distance_quan=zeros(num^2,data_size);
-
+Layout_coords = zeros(num*2, data_size*2);
 carrier_f = 2.4e+9;
 antenna_h = 1.5;
 P_dBm = 40; %transmit power level
 P = dB_trans(P_dBm-30);
 x_int = ones(num,1);
-noise_density = -200;%dBm/Hz
+noise_density = -169;%dBm/Hz
 bandwidth = 5e+6;
 p_noise_dBm = noise_density + 10*log10(bandwidth);
 p_noise = dB_trans(p_noise_dBm-30);
@@ -40,9 +40,10 @@ for loop = 1:data_size
     T_layout(:,2*loop-1) = Tx;
     T_layout(:,2*loop) = Ty;
     R_layout(:,2*loop-1) = Rx;
-    R_layout(:,2*loop) = Ry; 
+    R_layout(:,2*loop) = Ry;
     pair_d(:,loop) = pair_distance; 
     Distance_quan(:,loop) = d_column;
     Distance(:,loop) = d_original_column;
 end
+Layout_coords = [T_layout; R_layout];
 end

@@ -19,4 +19,3 @@ for i=1:num
       end
     end
 end
-%fprintf('Tx = %f, Ty = %f, Rx = %f, Ry = %f, Distance = %f\n',Tx,Ty,Rx,Ry,pair_distance)
