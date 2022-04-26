@@ -4,7 +4,6 @@ x = x_int;
 x_relax = zeros(num,1);
 z = zeros(num,1);
 y = zeros(num,1);
-H = H.*H;
 
 sum_log = 0;
 sum_wz = 0;
