@@ -34,17 +34,29 @@ def data_generate(data_name, link_num, graph_num, flag):
             data_file.writelines(["\n"])
     data_file.close()
 
-    # generate data/graph_label.txt
+    # generate labels and coords
     data_path = "./data/%s/%s/label.txt" % (flag, data_name)
-    if os.path.exists(data_path):
-        os.remove(data_path)
+    tx_path = "./data/%s/%s/tx.txt" % (flag, data_name)
+    ty_path = "./data/%s/%s/ty.txt" % (flag, data_name)
+    rx_path = "./data/%s/%s/rx.txt" % (flag, data_name)
+    ry_path = "./data/%s/%s/ry.txt" % (flag, data_name)
+
     matfn = "./mat/dataset_%d_%d.mat" % (graph_num, link_num)
     data = sio.loadmat(matfn)
     channel = data["Channel"]
     graph_label = data["Label"]
     distance = data["Distance"]
+    tx = data["Tx"]
+    ty = data["Ty"]
+    rx = data["Rx"]
+    ry = data["Ry"]
+
     # dquan = data["Distance_quan"]
     np.savetxt(data_path, graph_label, fmt="%d")
+    np.savetxt(tx_path, tx, fmt="%.4f")
+    np.savetxt(ty_path, ty, fmt="%.4f")
+    np.savetxt(rx_path, rx, fmt="%.4f")
+    np.savetxt(ry_path, ry, fmt="%.4f")
 
     # 1: CSI
     for i in range(graph_num):
@@ -72,7 +84,7 @@ def data_generate(data_name, link_num, graph_num, flag):
         np.savetxt(data_path, sub)
 
 
-def make_graph(g, node_tags, graph_id, dist, channel, labels_total):
+def make_graph(g, node_tags, graph_id, dist, channel, labels_total, tx, ty, rx, ry):
 
     g.graph["num_nodes"] = len(node_tags)
     g.graph["graph_id"] = graph_id
@@ -82,12 +94,10 @@ def make_graph(g, node_tags, graph_id, dist, channel, labels_total):
             idx,
             {
                 "entity": "transmitter_receiver_pair",
-                # "transceiver_x": layout[link_idx, 0],
-                # "transceiver_y": layout[link_idx, 1],
-                # "receiver_x": layout[link_idx, 2],
-                # "receiver_y": layout[link_idx, 3],
-                # "receiver_distance": diag_dist[link_idx],
-                # "channel_loss": diag_channel_loss[link_idx],
+                "transceiver_x": tx[idx, graph_id],
+                "transceiver_y": ty[idx, graph_id],
+                "receiver_x": rx[idx, graph_id],
+                "receiver_y": ry[idx, graph_id],
                 # "path_loss": path_loss[:, link_idx].tolist(),
                 # "power": 0,
                 # "weights": weights[link_idx],
@@ -162,6 +172,10 @@ def load_data(dname, flag):
 
     dirs = "./data/%s/%s/%s.txt" % (flag, dname, dname)
     labels_total = np.loadtxt("./data/%s/%s/label.txt" % (flag, dname))
+    tx_total = np.loadtxt("./data/%s/%s/tx.txt" % (flag, dname))
+    ty_total = np.loadtxt("./data/%s/%s/ty.txt" % (flag, dname))
+    rx_total = np.loadtxt("./data/%s/%s/rx.txt" % (flag, dname))
+    ry_total = np.loadtxt("./data/%s/%s/ry.txt" % (flag, dname))
 
     g_list = []
     label_dict = {}
@@ -198,7 +212,7 @@ def load_data(dname, flag):
                     g.add_edge(j, int(row[k]))  # following `m` numbers indicate the neighbor indices (starting from 0).
             # assert len(g.edges()) * 2 == n_edges
             assert len(g) == n
-            g_new = make_graph(g, node_tags, l, dist, channel, labels_total)
+            g_new = make_graph(g, node_tags, l, dist, channel, labels_total, tx_total, ty_total, rx_total, ry_total)
             g_list.append(g_new)
 
     for g in g_list:

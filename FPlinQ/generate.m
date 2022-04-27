@@ -1,9 +1,11 @@
-function [X,Y,Distance,Distance_quan, Layout_coords] = generate(num,data_size)
+function [X,Y,Distance,Distance_quan, Tx_layout, Ty_layout, Rx_layout, Ry_layout] = generate(num,data_size)
 iteration = zeros(data_size,1);
 X=zeros(num^2,data_size);
 Y=zeros(num,data_size);
-T_layout=zeros(num,2*data_size);
-R_layout=zeros(num,2*data_size);
+Tx_layout=zeros(num,data_size);
+Ty_layout=zeros(num,data_size);
+Rx_layout=zeros(num,data_size);
+Ry_layout=zeros(num,data_size);
 pair_d=zeros(num,data_size);
 Distance=zeros(num^2,data_size);
 Distance_quan=zeros(num^2,data_size);
@@ -37,13 +39,12 @@ for loop = 1:data_size
     d_original_column = reshape(d_original,num^2,1);
     X(:,loop) = channel_h_column;
     Y(:,loop) = x;
-    T_layout(:,2*loop-1) = Tx;
-    T_layout(:,2*loop) = Ty;
-    R_layout(:,2*loop-1) = Rx;
-    R_layout(:,2*loop) = Ry;
+    Tx_layout(:,loop) = Tx;
+    Ty_layout(:,loop) = Ty;
+    Rx_layout(:,loop) = Rx;
+    Ry_layout(:,loop) = Ry;
     pair_d(:,loop) = pair_distance; 
     Distance_quan(:,loop) = d_column;
     Distance(:,loop) = d_original_column;
 end
-Layout_coords = [T_layout; R_layout];
 end

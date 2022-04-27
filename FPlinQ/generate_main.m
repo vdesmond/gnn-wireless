@@ -9,13 +9,13 @@ for i = 1:length(link_num_set)
     for j = 1:length(data_size_set)
         disp('####### Generate Training Data #######');
         data_size = data_size_set(j);
-        [Channel,Label,Distance,Distance_quan, Layout_coords]=generate(num,data_size);
+        [Channel,Label,Distance,Distance_quan, Tx, Ty, Rx, Ry]=generate(num,data_size);
         disp('#######Done #######');
-        t = datestr(datetime('now'));
-        disp(t);
-        d = replace(t, {':'; '-'; ' '}, {''; ''; '_'});
-        disp(d);
-        save(sprintf('./mat/dataset_%d_%d_%s.mat',data_size, num, d),'Channel','Label','Distance','Distance_quan', 'Layout_coords');
+         t = datestr(datetime('now'));
+         disp(t);
+         d = replace(t, {':'; '-'; ' '}, {''; ''; '_'});
+         disp(d);
+         save(sprintf('./mat/dataset_%d_%d_%s.mat',data_size, num, d),'Channel','Label','Distance','Distance_quan', 'Tx', 'Ty', 'Rx', 'Ry');
     end
 end
 
