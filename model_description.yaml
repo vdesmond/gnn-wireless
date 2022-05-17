@@ -1,3 +1,4 @@
+---
 entities:
   - name: transmitter_receiver_pair
     state_dimension: hidden_state_dimension
@@ -19,8 +20,7 @@ message_passing:
                     - source
                     - destination
                     - $interfering_d2d_distance
-          aggregation:
-            - type: attention
+          aggregation: max
           update:
             type: neural_network
             nn_name: update_function

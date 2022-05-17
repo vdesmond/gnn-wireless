@@ -1,4 +1,4 @@
 ---
-hidden_state_dimension: 8
+hidden_state_dimension: 16
 nn_activation: relu
 nn_layer: Dense
