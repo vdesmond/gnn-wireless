@@ -222,12 +222,12 @@ def load_data(dname, flag):
     return g_list
 
 
-def matlab_generate(train_num, val_num, test_num, d2d):
-    import matlab.engine
+# def matlab_generate(train_num, val_num, test_num, d2d):
+#     import matlab.engine
 
-    eng = matlab.engine.start_matlab()
-    eng.addpath("./FPlinQ/")
-    eng.pygenerate(train_num, val_num, test_num, d2d, nargout=0)
+#     eng = matlab.engine.start_matlab()
+#     eng.addpath("./FPlinQ/")
+#     eng.pygenerate(train_num, val_num, test_num, d2d, nargout=0)
 
 
 if __name__ == "__main__":
@@ -247,14 +247,14 @@ if __name__ == "__main__":
     d2d = args.d2d
 
     # ? Code to generate mat files if not found
-    if not os.path.exists("./mat"):
-        print("mat folder not found. Creating")
-        os.makedirs("./mat")
-        print("generating mat files")
-        matlab_generate(train_num, val_num, test_num, d2d)
-    if not os.path.exists(f"./mat/dataset_{train_num}_{d2d}.mat"):
-        print("generating mat files")
-        matlab_generate(train_num, val_num, test_num, d2d)
+    # if not os.path.exists("./mat"):
+    #     print("mat folder not found. Creating")
+    #     os.makedirs("./mat")
+    #     print("generating mat files")
+    #     matlab_generate(train_num, val_num, test_num, d2d)
+    # if not os.path.exists(f"./mat/dataset_{train_num}_{d2d}.mat"):
+    #     print("generating mat files")
+    #     matlab_generate(train_num, val_num, test_num, d2d)
 
     data_generate(data_name=dname, link_num=d2d, graph_num=train_num, flag="train")
     data_generate(data_name=dname, link_num=d2d, graph_num=val_num, flag="val")
