@@ -46,11 +46,11 @@ aggregation_sweep() {
     gen_dataset 20
     TS=$(timestamp)
     for i in ${!arr[@]}; do
-        yaml_set message_passing.stages.stage_message_passings.aggregation ${arr[i]} model_description
+        yaml_set message_passing.stages.stage_message_passings.aggregation.type ${arr[i]} model_description
         run_main aggregation ${arr[i]} $TS
     done
     # Reset to default aggregation (attention)
-    yaml_set message_passing.stages.stage_message_passings.aggregation attention model_description
+    yaml_set message_passing.stages.stage_message_passings.aggregation.type attention model_description
 }
 
 # MAIN

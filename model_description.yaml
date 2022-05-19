@@ -20,7 +20,8 @@ message_passing:
                     - source
                     - destination
                     - $interfering_d2d_distance
-          aggregation: max
+          aggregation:
+            - type: max
           update:
             type: neural_network
             nn_name: update_function
