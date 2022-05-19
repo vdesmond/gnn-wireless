@@ -3,7 +3,7 @@ additional_functions_file: ./additional_functions.py
 train_dataset: ./data/train
 validation_dataset: ./data/val
 predict_dataset: ./data/test
-load_model_path: ./CheckPoint/24_04_22__11_59/ckpt/weights.50-0.116
+#load_model_path: ./CheckPoint/24_04_22__11_59/ckpt/weights.50-0.116
 output_path: ./
 
 # OPTIMIZATION OPTIONS
