@@ -1,75 +1,112 @@
+from locale import normalize
+import math
+import sys
+
 import tensorflow as tf
 
-noise_power = tf.constant(4e-12)
+NOISE_POWER = tf.constant(4e-12)
+P_DBM = 40
+P = 10  # math.pow(10, P_DBM / 10)
+NOISE_DENSITY = -169
+BANDWIDTH = 5e6
+P_NOISE_DBM = NOISE_DENSITY + 10 * math.log10(BANDWIDTH)
+P_NOISE = math.pow(10, (P_NOISE_DBM - 30) / 10)
 
 
 @tf.function()
-def compute_sum_rate(power, loss, N):
-    """Compute Sum Rate from power allocation and channle loss matrix."""
-    # Prepare power tensor
-    power_tiled = tf.tile(power, [N, 1])
-    rx_power = tf.math.square(tf.multiply(loss, power_tiled))
-    # Prepare masks diagonal and off-diagonal masks
-    mask = tf.eye(N)
-    mask_inverse = tf.ones_like(mask) - mask
-    # Compute valid power/interferences per transciever-reciever-pair
-    valid_rx_power = tf.reduce_sum(tf.multiply(rx_power, mask), axis=-1)
-    interference = tf.reduce_sum(tf.multiply(rx_power, mask_inverse), axis=-1)
-    interference += tf.repeat(noise_power, tf.shape(interference))
-    # Compute SINR rates
-    sinr = tf.ones(N) + tf.divide(valid_rx_power, interference)
-    sum_rate = tf.divide(tf.math.log(sinr), tf.math.log(tf.constant(2, dtype=tf.float32)))
-    return tf.reduce_mean(tf.reduce_sum(sum_rate, -1))
+def d2d_dims(N):
+    return tf.cast((-1 + tf.sqrt(tf.cast(1 + 4 * N, dtype=tf.float32))) // 2, tf.int32)
 
 
 @tf.function()
-def sum_rate_loss(y_true, y_pred):
-    """SINR sum rate loss.
+def sum_diag(A):
+    return tf.reduce_sum(tf.square(A), axis=0)
 
-    Loss function for Radio Resource Management example, computing the expected sum rate value.
-    Inputs are batched tensors with shape (b, n, ?) where b is batch_size, n is the number of
-    nodes in the graph an ? changes depending on input.
 
-    Parameters
-    ----------
-    y_true : tf.Tensor
-        Batched tensor with with shape (b, n, n) containing for each node the path losses from the
-        node (transceiver-reciever-pair) to all others, include itself.
-    y_pred : tf.Tensor
-        Batched tensor with GNN output, containing a hidden state with shape (b, n, 4), where second
-        last element is the allocated power to transceiver-reciever-pair and last element is the
-        reference wmmse allocated power aproximation to compare with computed.
+@tf.function()
+def log2(A):
+    numerator = tf.math.log(A)
+    denominator = tf.math.log(tf.constant(2, dtype=numerator.dtype))
+    return numerator / denominator
+
+
+@tf.function()
+def bce_loss(y_true, y_pred):
+    """Binary Cross Entropy Loss with changes to be compatibile
+       with IGNNITION
+
+    Args:
+        y_true (tf.Tensor): True labels {0, 1}
+        y_pred (tf.Tensor): Predicted labels [0., 1.]
+
+    Returns:
+        loss value
     """
-    N = tf.shape(y_pred)[0]
-    power = tf.expand_dims(y_pred[:, -2], axis=0)
-    sum_rate = compute_sum_rate(power, y_true, N)
-    return tf.negative(sum_rate)
+
+    N = int(tf.shape(y_pred)[0])
+    X = d2d_dims(N)
+    temp = tf.squeeze(y_pred)[:X]
+    y_pred_split = tf.expand_dims(temp, axis=1)
+
+    bce = tf.keras.losses.BinaryCrossentropy()
+    loss_value = bce(y_true, y_pred_split)
+    return loss_value
+
+
+@tf.function
+def object_rate_sum(H, X, L):
+    """Function to calculate object sum rate
+
+    Args:
+        H (tf.Tensor): Channel Tensor of size (L, L)
+        X (tf.Tensor): Link scheduling 1D Tensor
+        L (tf.Tensor): Singleton Tensor denoting number of D2D pairs
+
+    Returns:
+        tf.Tensor: object sum rate
+    """
+    R = tf.TensorArray(tf.float32, size=L)
+
+    for i in range(L):
+        sum_arr = tf.TensorArray(tf.float32, size=L)
+        for j in range(L):
+            sum_arr = sum_arr.write(j, H[j, i] * P * X[j])
+        sum_all = tf.reduce_sum(sum_arr.stack())
+        sum_ij = sum_all - H[i, i] * P * X[i]
+        R = R.write(i, log2(1 + H[i, i] * P * X[i] / (sum_ij + P_NOISE)))
+
+    return tf.reduce_sum(R.stack())
 
 
 @tf.function()
 def sum_rate_metric(y_true, y_pred):
-    """WMMSE ratio metric.
+    """Average Sum Rate metric."""
 
-    Metric function for Radio Resource Management example, computing the sum rate normalized by the
-    wmmse sum rate. Inputs are batched tensors with shape (b, n, ?) where b is batch_size, n is the
-    number of nodes in the graph an ? changes depending on input.
+    N = int(tf.shape(y_pred)[0])
+    L = d2d_dims(N)
 
-    Parameters
-    ----------
-    y_true : tf.Tensor
-        Batched tensor with with shape (b, n, n) containing for each node the path losses from the
-        node (transceiver-reciever-pair) to all others, include itself.
-    y_pred : tf.Tensor
-        Batched tensor with GNN output, containing a hidden state with shape (b, n, 4), where second
-        last element is the allocated power to transceiver-reciever-pair and last element is the
-        reference wmmse allocated power aproximation to compare with computed.
-    """
-    N = tf.shape(y_pred)[0]
-    power_wmmse = tf.expand_dims(y_pred[:, -1], axis=0)
-    power = tf.expand_dims(y_pred[:, -2], axis=0)
-    sum_rate_wmmse = compute_sum_rate(power_wmmse, y_true, N)
-    sum_rate = compute_sum_rate(power, y_true, N)
-    return tf.multiply(tf.divide(sum_rate, sum_rate_wmmse), tf.constant(100, dtype=tf.float32))
+    channel_int = tf.squeeze(y_pred[2 * L :])
+    channel_d2d = y_pred[L : 2 * L]
+
+    indices = tf.sets.difference(
+        tf.expand_dims(tf.range(0, L * L, 1), axis=0),
+        tf.expand_dims(tf.range(0, L * L, 11), axis=0),
+    ).values
+
+    shape = tf.expand_dims(L * L, axis=0)
+
+    Ht = tf.reshape(tf.scatter_nd(tf.expand_dims(indices, axis=1), channel_int, shape), [L, L])
+    diag = tf.squeeze(tf.linalg.tensor_diag(channel_d2d))
+
+    y_predicted = y_pred[:L]
+
+    H = tf.add(Ht, diag)
+
+    fpr = object_rate_sum(H, y_true, L)
+    nnr = object_rate_sum(H, y_predicted, L)
+    normalized_sum_rate = tf.divide(nnr, fpr)
+
+    return normalized_sum_rate
 
 
 def evaluation_metric(y_true, y_pred):

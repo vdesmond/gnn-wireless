@@ -48,7 +48,7 @@ hidden_state_dim_sweep() {
 aggregation_sweep() {
     arr=(min max mean convolution attention)
     # Simulation for 20 D2D pairs
-    gen_dataset 10
+    gen_dataset 20
     TS=$(timestamp)
     for i in ${!arr[@]}; do
         yaml_set message_passing.stages.stage_message_passings.aggregation.type ${arr[i]} model_description
@@ -58,7 +58,21 @@ aggregation_sweep() {
     yaml_set message_passing.stages.stage_message_passings.aggregation.type attention model_description
 }
 
+number_of_iterations_sweep() {
+    arr=(2 3 4 5)
+    # Simulation for 20 D2D pairs
+    gen_dataset 20
+    TS=$(timestamp)
+    for i in ${!arr[@]}; do
+        yaml_set message_passing.num_iterations ${arr[i]} global_variables
+        run_main hidden_state_dim ${arr[i]} $TS
+    done
+    # Reset to default hidden state dimension (16)
+    yaml_set message_passing.num_iterations 3 global_variables
+}
+
 # MAIN
-d2d_sweep
-hidden_state_dim_sweep
-aggregation_sweep
+#d2d_sweep
+#hidden_state_dim_sweep
+#aggregation_sweep
+#number_of_iterations_sweep

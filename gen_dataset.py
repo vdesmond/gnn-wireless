@@ -124,6 +124,9 @@ def make_graph(g, node_tags, graph_id, dist, channel, labels_total, tx, ty, rx, 
     )
 
     # ? CODE FOR GRAPH VISUALIZATION
+    # import matplotlib.pyplot as plt
+
+    # plt.figure(1, figsize=(12, 12))
     # pos = nx.spring_layout(g)
     # edge_labels = dict(
     #     [
@@ -137,17 +140,39 @@ def make_graph(g, node_tags, graph_id, dist, channel, labels_total, tx, ty, rx, 
     #         for u, v, d in g.edges(data=True)
     #     ]
     # )
-    # nx.draw(g, pos, with_labels=True,
-    # node_color=[
-    #         "#a3be8c" if data["label"] == 1 else "#bf616a"
-    #         for _, data in g.nodes(data=True)
-    #     ],connectionstyle="arc3, rad = 0.1",node_size=700)
+    # nx.draw(
+    #     g,
+    #     pos,
+    #     with_labels=True,
+    #     node_color=["#a3be8c" if data["label"] == 1 else "#bf616a" for _, data in g.nodes(data=True)],
+    #     connectionstyle="arc3, rad = 0.1",
+    #     node_size=700,
+    # )
 
-    # # node_labels = nx.get_node_attributes(g,'d2d_distance')
-    # # node_labels = {u : round(v) for u,v in node_labels.items()}
-    # # nx.draw_networkx_labels(g, pos, labels = node_labels, font_size=6)
-    # nx.draw_networkx_edge_labels(g, pos, edge_labels=edge_labels, font_size=6)
-    # plt.show()
+    # nx.draw_networkx_nodes(
+    #     g,
+    #     pos,
+    #     # node_color=["#a3be8c" if data["label"] == 1 else "#bf616a" for _, data in g.nodes(data=True)],
+    #     node_color="#88c0d0",
+    #     node_size=700,
+    # )
+
+    # nx.draw_networkx_edges(g, pos, width=1.5, style="dashed", connectionstyle="arc3, rad = 0.1", alpha=0.3)
+
+    # nx.draw_networkx_labels(
+    #     g,
+    #     pos,
+    # )
+    # node_labels = nx.get_node_attributes(g,'d2d_distance')
+    # node_labels = {u : round(v) for u,v in node_labels.items()}
+    # nx.draw_networkx_labels(g, pos, labels = node_labels, font_size=6)
+    # nx.draw_networkx_edge_labels(
+    #     g,
+    #     pos,
+    #     alpha=0.5,
+    # )
+    # plt.savefig("temp.png")
+    # exit()
 
     return g
 

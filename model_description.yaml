@@ -30,6 +30,10 @@ readout:
   - type: neural_network
     input: [transmitter_receiver_pair]
     nn_name: readout_network
+    output_name: output1
+  - type: concat
+    concat_axis: 1
+    input: [output1, $d2d_channel, $channel]
     output_label: [$label]
 
 neural_networks:
