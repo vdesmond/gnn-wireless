@@ -7,11 +7,11 @@ predict_dataset: ./data/test
 output_path: ./
 
 # OPTIMIZATION OPTIONS
-loss: bce_loss
+loss: c_bce_loss
 optimizer:
   type: Adam
   learning_rate: 0.0001
-metrics: [sum_rate_metric]
+metrics: [sum_rate_metric, c_binary_accuracy]
 
 # TRAINING OPTIONS
 batch_size: 16

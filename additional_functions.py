@@ -31,7 +31,16 @@ def log2(A):
 
 
 @tf.function()
-def bce_loss(y_true, y_pred):
+def preprocess(y_pred):
+    N = int(tf.shape(y_pred)[0])
+    X = d2d_dims(N)
+    temp = tf.squeeze(y_pred)[:X]
+    y_pred_split = tf.expand_dims(temp, axis=1)
+    return y_pred_split
+
+
+@tf.function()
+def c_bce_loss(y_true, y_pred):
     """Binary Cross Entropy Loss with changes to be compatibile
        with IGNNITION
 
@@ -40,17 +49,28 @@ def bce_loss(y_true, y_pred):
         y_pred (tf.Tensor): Predicted labels [0., 1.]
 
     Returns:
-        loss value
+        BCE loss value
     """
 
-    N = int(tf.shape(y_pred)[0])
-    X = d2d_dims(N)
-    temp = tf.squeeze(y_pred)[:X]
-    y_pred_split = tf.expand_dims(temp, axis=1)
-
     bce = tf.keras.losses.BinaryCrossentropy()
-    loss_value = bce(y_true, y_pred_split)
+    loss_value = bce(y_true, preprocess(y_pred))
     return loss_value
+
+
+@tf.function()
+def c_binary_accuracy(y_true, y_pred):
+    """Binary Accuracy with changes to be compatibile
+       with IGNNITION
+
+    Args:
+        y_true (tf.Tensor): True labels {0, 1}
+        y_pred (tf.Tensor): Predicted labels [0., 1.]
+
+    Returns:
+        Binary accuracy value
+    """
+    acc = tf.keras.metrics.binary_accuracy(y_true, preprocess(y_pred))
+    return acc
 
 
 @tf.function

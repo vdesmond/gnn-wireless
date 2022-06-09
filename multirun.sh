@@ -5,7 +5,7 @@ timestamp() {
 }
 
 gen_dataset() {
-    python gen_dataset.py -t 1000 -v 500 -s 500 -d $1
+    python gen_dataset.py -t 1000 -v 500 -s 1000 -d $1
 }
 
 run_main() {
@@ -22,7 +22,7 @@ yaml_set() {
 }
 
 d2d_sweep() { # Runs for evaluating D2D
-    # Train: 1000 Valid: 500 Test: 500
+    # Train: 1000 Valid: 500 Test: 1000
     # Hidden state dimension: 16
     TS=$(timestamp)
     arr=(10 20 30 40 50)
