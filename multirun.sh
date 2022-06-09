@@ -1,23 +1,28 @@
 #!/bin/bash
 
 timestamp() {
-    date +"%Y-%m-%d_%H-%M-%S" # current time
+    date +"%Y_%m_%d_%H_%M_%S" # current time
 }
 
 gen_dataset() {
-    echo "python gen_dataset.py -t 1000 -v 500 -s 500 -d $1"
+    python gen_dataset.py -t 1000 -v 500 -s 1000 -d $1
 }
 
 run_main() {
-    echo "python main.py >> $1_$2_log_$3.txt"
+    T=$3
+    temp=${T:0:-8}
+    python main.py | tee $1_$2_log.txt
+    mv -T ./CheckPoint/experiment_$temp* ./CheckPoint/$1_$2_expt_$3
+    mv ./$1_$2_log.txt ./CheckPoint/$1_$2_expt_$3
+    cat model_description.yaml train_options.yaml global_variables.yaml >./CheckPoint/$1_$2_expt_$3/$1_$2_config.txt
 }
 
 yaml_set() {
-    echo "yaml-set --change=$1 --value="$2" $3.yaml"
+    yaml-set --change=$1 --value="$2" $3.yaml
 }
 
 d2d_sweep() { # Runs for evaluating D2D
-    # Train: 1000 Valid: 500 Test: 500
+    # Train: 1000 Valid: 500 Test: 1000
     # Hidden state dimension: 16
     TS=$(timestamp)
     arr=(10 20 30 40 50)
@@ -41,7 +46,7 @@ hidden_state_dim_sweep() {
 }
 
 aggregation_sweep() {
-    arr=(sum min max mean convolution attention)
+    arr=(min max mean convolution attention)
     # Simulation for 20 D2D pairs
     gen_dataset 20
     TS=$(timestamp)
@@ -51,9 +56,26 @@ aggregation_sweep() {
     done
     # Reset to default aggregation (attention)
     yaml_set message_passing.stages.stage_message_passings.aggregation.type attention model_description
+<<<<<<< HEAD
+=======
+}
+
+number_of_iterations_sweep() {
+    arr=(2 3 4 5)
+    # Simulation for 20 D2D pairs
+    gen_dataset 20
+    TS=$(timestamp)
+    for i in ${!arr[@]}; do
+        yaml_set message_passing.num_iterations ${arr[i]} global_variables
+        run_main hidden_state_dim ${arr[i]} $TS
+    done
+    # Reset to default hidden state dimension (16)
+    yaml_set message_passing.num_iterations 3 global_variables
+>>>>>>> pregenerated
 }
 
 # MAIN
 #d2d_sweep
 #hidden_state_dim_sweep
 #aggregation_sweep
+#number_of_iterations_sweep
