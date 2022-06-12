@@ -1,6 +1,6 @@
 # gnn-wireless
 
-Final Year Project (in progess)
+Final Year Project
 
 ## Basic Steps:
 
@@ -9,3 +9,9 @@ Final Year Project (in progess)
 - Run [gen_dataset.py](gen_dataset.py) file to convert the generated mat files to serialized json (what IGNNITION expects) using NetworkX
 - Set model description, training option and global variables
 - Run [main.py](main.py) to start training
+
+### Script stuff
+
+Needs:
+- dos2unix (from package repository)
+- yamlpath (from python)

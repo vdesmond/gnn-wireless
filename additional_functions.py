@@ -1,6 +1,4 @@
-from locale import normalize
 import math
-import sys
 
 import tensorflow as tf
 
@@ -100,7 +98,7 @@ def object_rate_sum(H, X, L):
 
 @tf.function()
 def sum_rate_metric(y_true, y_pred):
-    """Average Sum Rate metric."""
+    """Normalized Sum Rate metric."""
 
     N = int(tf.shape(y_pred)[0])
     L = d2d_dims(N)
@@ -129,5 +127,6 @@ def sum_rate_metric(y_true, y_pred):
     return normalized_sum_rate
 
 
-def evaluation_metric(y_true, y_pred):
-    return sum_rate_metric(y_true, y_pred)
+@tf.function
+def sum_rate_loss(y_true, y_pred):
+    return tf.negative(sum_rate_metric(y_true, y_pred))

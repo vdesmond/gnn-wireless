@@ -5,20 +5,48 @@ timestamp() {
 }
 
 gen_dataset() {
-    python gen_dataset.py -t 1000 -v 500 -s 1000 -d $1
+    python gen_dataset.py -t 200 -v 500 -s 200 -d $1
 }
 
 run_main() {
+
+    # Timestamp
     T=$3
     temp=${T:0:-8}
-    python main.py | tee $1_$2_log.txt
+
+    # Train and validate
+    yaml_set validation_dataset ./data/val train_options
+    yaml_del load_model_path train_options
+    python main.py | tee $1_$2_log_t.txt
+    log_process $1 $2 log
+
+    # Rename CheckPoint folder
     mv -T ./CheckPoint/experiment_$temp* ./CheckPoint/$1_$2_expt_$3
-    mv ./$1_$2_log.txt ./CheckPoint/$1_$2_expt_$3
+
+    # Evaluate
+    T=$(ls -d ./CheckPoint/$1_$2_expt_$3/ckpt/* | tail -1)
+    yaml_set validation_dataset ./data/test train_options
+    yaml_set load_model_path $T train_options
+    python evaluate.py | tee $1_$2_evaluation_t.txt
+    log_process $1 $2 evaluation
+
+    # Store log, eval and config
+    mv ./$1_$2_log.txt ./$1_$2_evaluation.txt ./CheckPoint/$1_$2_expt_$3
     cat model_description.yaml train_options.yaml global_variables.yaml >./CheckPoint/$1_$2_expt_$3/$1_$2_config.txt
 }
 
 yaml_set() {
     yaml-set --change=$1 --value="$2" $3.yaml
+}
+
+yaml_del() {
+    yaml-set --delete --change=$1 $2.yaml
+}
+
+log_process() {
+    dos2unix -c Mac -f $1_$2_$3_t.txt
+    grep -n "500/500" $1_$2_$3_t.txt >$1_$2_$3.txt
+    rm $1_$2_$3_t.txt
 }
 
 d2d_sweep() { # Runs for evaluating D2D
@@ -56,14 +84,12 @@ aggregation_sweep() {
     done
     # Reset to default aggregation (attention)
     yaml_set message_passing.stages.stage_message_passings.aggregation.type attention model_description
-<<<<<<< HEAD
-=======
 }
 
 number_of_iterations_sweep() {
-    arr=(2 3 4 5)
+    arr=(2 3)
     # Simulation for 20 D2D pairs
-    gen_dataset 20
+    gen_dataset 10
     TS=$(timestamp)
     for i in ${!arr[@]}; do
         yaml_set message_passing.num_iterations ${arr[i]} global_variables
@@ -71,11 +97,10 @@ number_of_iterations_sweep() {
     done
     # Reset to default hidden state dimension (16)
     yaml_set message_passing.num_iterations 3 global_variables
->>>>>>> pregenerated
 }
 
 # MAIN
 #d2d_sweep
 #hidden_state_dim_sweep
 #aggregation_sweep
-#number_of_iterations_sweep
+number_of_iterations_sweep

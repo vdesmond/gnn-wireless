@@ -21,11 +21,7 @@ message_passing:
                     - destination
                     - $interfering_d2d_distance
           aggregation:
-<<<<<<< HEAD
-            - type: max
-=======
             - type: attention
->>>>>>> pregenerated
           update:
             type: neural_network
             nn_name: update_function

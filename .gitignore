@@ -1,12 +1,7 @@
 __pycache__/
 *.mat
 rra_*
-validation_10/
-raw_10/
-train_10/
+data/
 .vscode/
-<<<<<<< HEAD
-.json
-=======
 *.json
->>>>>>> pregenerated
+*.txt
