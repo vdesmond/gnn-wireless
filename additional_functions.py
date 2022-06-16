@@ -108,7 +108,7 @@ def sum_rate_metric(y_true, y_pred):
 
     indices = tf.sets.difference(
         tf.expand_dims(tf.range(0, L * L, 1), axis=0),
-        tf.expand_dims(tf.range(0, L * L, 11), axis=0),
+        tf.expand_dims(tf.range(0, L * L, L + 1), axis=0),
     ).values
 
     shape = tf.expand_dims(L * L, axis=0)

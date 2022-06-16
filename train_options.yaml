@@ -7,7 +7,7 @@ shuffle_training_set: true
 shuffle_validation_set: true
 val_samples: 500
 val_frequency: 1
-k_best: 5
+# k_best: 5
 batch_norm: mean
 
 # OPTIMIZATION OPTIONS
@@ -29,4 +29,4 @@ train_dataset: ./data/train
 validation_dataset: ./data/test
 #predict_dataset: ./data/test
 output_path: ./
-load_model_path: ./CheckPoint/hidden_state_dim_3_expt_2022_06_12_16_51_36/ckpt/weights.05-0.245
+load_model_path: ./CheckPoint/training_500_expt_2022_06_16_11_23_54/ckpt/weights.05-0.323

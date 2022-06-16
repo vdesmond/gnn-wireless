@@ -7,7 +7,7 @@ entities:
         input: [$d2d_distance]
 
 message_passing:
-  num_iterations: 3
+  num_iterations: 2
   stages:
     - stage_message_passings:
         - destination_entity: transmitter_receiver_pair
@@ -41,7 +41,7 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 32
+        units: nn_units
       - type_layer: nn_layer
         activation: nn_activation
         units: hidden_state_dimension
@@ -50,7 +50,7 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 32
+        units: nn_units
       - type_layer: nn_layer
         activation: nn_activation
         units: hidden_state_dimension
@@ -59,7 +59,7 @@ neural_networks:
     nn_architecture:
       - type_layer: nn_layer
         activation: nn_activation
-        units: 16
+        units: nn_final_units
       - type_layer: nn_layer
         activation: sigmoid
         units: 1
